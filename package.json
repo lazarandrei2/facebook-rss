@@ -12,7 +12,8 @@
     "fetch": "node --disable-warning=ExperimentalWarning bin/cli.js fetch",
     "clean": "node --disable-warning=ExperimentalWarning bin/cli.js clean",
     "publish": "node --disable-warning=ExperimentalWarning bin/cli.js publish",
-    "serve": "node --disable-warning=ExperimentalWarning bin/cli.js serve"
+    "serve": "node --disable-warning=ExperimentalWarning bin/cli.js serve",
+    "test": "node --disable-warning=ExperimentalWarning test/media.test.js"
   },
   "engines": {
     "node": ">=22"
