@@ -6,6 +6,9 @@ listen: ":8080"
 headless: true
 session_path: session.json
 
+# How many posts to fetch per profile each run
+max_posts: 15
+
 # SQLite database
 database_path: data/posts.db
 

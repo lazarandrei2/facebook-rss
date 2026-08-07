@@ -137,49 +137,28 @@ type rawPost struct {
 }
 
 func (s *Scraper) fetchProfile(page playwright.Page, profile config.Profile) ([]store.Post, error) {
-	if _, err := page.Goto(profile.URL, playwright.PageGotoOptions{
-		WaitUntil: playwright.WaitUntilStateDomcontentloaded,
-		Timeout:   playwright.Float(60_000),
-	}); err != nil {
-		return nil, fmt.Errorf("goto profile: %w", err)
-	}
-	page.WaitForTimeout(3_000)
-
-	// Prefer the Posts tab when Facebook opens a comments/activity view.
-	_, _ = page.Evaluate(`() => {
-		const tabs = Array.from(document.querySelectorAll('a[role="tab"], div[role="tab"], span'));
-		for (const el of tabs) {
-			const t = (el.innerText || '').trim().toLowerCase();
-			if (t === 'posts' || t === 'postări') {
-				try { el.click(); } catch (_) {}
-				break;
-			}
-		}
-	}`)
-	page.WaitForTimeout(2_000)
-
-	for i := 0; i < 5; i++ {
-		_ = page.Mouse().Wheel(0, 2200)
-		page.WaitForTimeout(1_200)
-	}
-
-	value, err := page.Evaluate(collectPostURLsJS)
+	urls, err := s.collectPostURLs(page, profile)
 	if err != nil {
-		return nil, fmt.Errorf("collect post urls: %w", err)
+		return nil, err
 	}
-	urls := decodeStringList(value)
 	if len(urls) == 0 {
 		return nil, fmt.Errorf("no posts found (login expired, profile private, or DOM changed)")
 	}
-	if len(urls) > 8 {
-		urls = urls[:8]
+
+	limit := s.cfg.MaxPosts
+	if limit <= 0 {
+		limit = 15
 	}
+	if len(urls) > limit {
+		urls = urls[:limit]
+	}
+	log.Printf("%s: opening %d posts", profile.Name, len(urls))
 
 	now := time.Now().UTC()
 	posts := make([]store.Post, 0, len(urls))
 	seen := map[string]bool{}
 
-	for _, rawURL := range urls {
+	for i, rawURL := range urls {
 		permalink := normalizePostURL(rawURL)
 		if permalink == "" || seen[permalink] {
 			continue
@@ -194,9 +173,12 @@ func (s *Scraper) fetchProfile(page playwright.Page, profile config.Profile) ([]
 		text := cleanText(full.Text)
 		images := uniqueNonEmpty(full.Images)
 		if !isUsefulPost(text, images, permalink, profile.Name) {
+			log.Printf("warn: skip thin post %s", permalink)
 			continue
 		}
 
+		// Keep discovery order (top of timeline = newest).
+		published := now.Add(-time.Duration(i) * time.Minute)
 		posts = append(posts, store.Post{
 			ID:          hashID(permalink),
 			ProfileURL:  profile.URL,
@@ -204,7 +186,7 @@ func (s *Scraper) fetchProfile(page playwright.Page, profile config.Profile) ([]
 			Title:       makeTitle(text, profile.Name),
 			Content:     renderHTML(text, images, permalink),
 			URL:         permalink,
-			PublishedAt: now,
+			PublishedAt: published,
 			FetchedAt:   now,
 		})
 	}
@@ -213,6 +195,97 @@ func (s *Scraper) fetchProfile(page playwright.Page, profile config.Profile) ([]
 		return nil, fmt.Errorf("no usable posts after filtering")
 	}
 	return posts, nil
+}
+
+func (s *Scraper) collectPostURLs(page playwright.Page, profile config.Profile) ([]string, error) {
+	slug := profileSlug(profile.URL)
+	if _, err := page.Goto(profile.URL, playwright.PageGotoOptions{
+		WaitUntil: playwright.WaitUntilStateDomcontentloaded,
+		Timeout:   playwright.Float(60_000),
+	}); err != nil {
+		return nil, fmt.Errorf("goto profile: %w", err)
+	}
+	page.WaitForTimeout(3_000)
+
+	_, _ = page.Evaluate(`() => {
+		const tabs = Array.from(document.querySelectorAll('a[role="tab"], div[role="tab"], span, a'));
+		for (const el of tabs) {
+			const t = (el.innerText || '').trim().toLowerCase();
+			if (t === 'posts' || t === 'postări') {
+				try { el.click(); } catch (_) {}
+				break;
+			}
+		}
+	}`)
+	page.WaitForTimeout(2_000)
+
+	want := s.cfg.MaxPosts
+	if want <= 0 {
+		want = 15
+	}
+	// Collect extras so filtering still leaves enough.
+	target := want + 5
+	if target < 20 {
+		target = 20
+	}
+
+	ordered := make([]string, 0, target)
+	seen := map[string]bool{}
+	stagnant := 0
+
+	harvest := func() {
+		html, err := page.Content()
+		if err != nil {
+			return
+		}
+		for _, id := range pfbidPattern.FindAllString(html, -1) {
+			permalink := "https://www.facebook.com/" + slug + "/posts/" + id
+			if seen[permalink] {
+				continue
+			}
+			seen[permalink] = true
+			ordered = append(ordered, permalink)
+		}
+		// Also keep any already-canonical post anchors.
+		value, err := page.Evaluate(collectPostURLsJS)
+		if err == nil {
+			for _, u := range decodeStringList(value) {
+				permalink := normalizePostURL(u)
+				if permalink == "" || seen[permalink] {
+					continue
+				}
+				seen[permalink] = true
+				ordered = append(ordered, permalink)
+			}
+		}
+	}
+
+	harvest()
+	for i := 0; i < 25 && len(ordered) < target; i++ {
+		before := len(ordered)
+		_ = page.Mouse().Wheel(0, 3200)
+		page.WaitForTimeout(1_500)
+		_, _ = page.Evaluate(`() => {
+			for (const el of document.querySelectorAll('div[role="button"], a, span')) {
+				const t = (el.innerText || '').trim().toLowerCase();
+				if (t === 'see more' || t === 'vezi mai mult' || t.includes('more posts') || t.includes('mai multe')) {
+					try { el.click(); } catch (_) {}
+				}
+			}
+		}`)
+		harvest()
+		if len(ordered) == before {
+			stagnant++
+		} else {
+			stagnant = 0
+		}
+		if stagnant >= 4 {
+			break
+		}
+	}
+
+	log.Printf("%s: discovered %d post urls", profile.Name, len(ordered))
+	return ordered, nil
 }
 
 func (s *Scraper) fetchPostPage(page playwright.Page, permalink string) (rawPost, error) {
@@ -278,32 +351,76 @@ const collectPostURLsJS = `() => {
 }`
 
 const extractPostPageJS = `() => {
+	const decode = (raw) => raw
+		.replace(/\\u([0-9a-fA-F]{4})/g, (_, h) => String.fromCharCode(parseInt(h, 16)))
+		.replace(/\\n/g, '\n')
+		.replace(/\\t/g, '\t')
+		.replace(/\\"/g, '"')
+		.replace(/\\\\/g, '\\')
+		.replace(/[\u200B-\u200D\uFEFF\u2060]/g, '')
+		.trim();
+
+	const titleRaw = (document.title || '')
+		.replace(/\s*\|\s*Facebook\s*$/i, '')
+		.replace(/^\(\d+\)\s*/, '');
+	// "Teaser... - Author | Facebook" or "Teaser... - Author"
+	let titleTeaser = titleRaw;
+	const dash = titleRaw.lastIndexOf(' - ');
+	if (dash > 10) titleTeaser = titleRaw.slice(0, dash);
+	titleTeaser = titleTeaser.replace(/\.\.\.$/, '').trim();
+
 	const html = document.documentElement.innerHTML;
 	const texts = [];
 	const re = /"message"\s*:\s*\{\s*"text"\s*:\s*"((?:\\.|[^"\\])*)"/g;
 	let match;
 	while ((match = re.exec(html)) !== null) {
-		let raw = match[1]
-			.replace(/\\u([0-9a-fA-F]{4})/g, (_, h) => String.fromCharCode(parseInt(h, 16)))
-			.replace(/\\n/g, '\n')
-			.replace(/\\t/g, '\t')
-			.replace(/\\"/g, '"')
-			.replace(/\\\\/g, '\\');
-		raw = raw.replace(/[\u200B-\u200D\uFEFF\u2060]/g, '').trim();
+		const raw = decode(match[1]);
 		if (raw.length < 20) continue;
 		if (/Meta AI|Privacy Policy|Remember password|By using Meta AI/i.test(raw)) continue;
 		texts.push(raw);
 	}
 
-	// Prefer the longest story-like message.
-	texts.sort((a, b) => b.length - a.length);
-	let text = texts[0] || '';
+	const uniq = [];
+	const seen = new Set();
+	for (const t of texts) {
+		const key = t.slice(0, 80);
+		if (seen.has(key)) continue;
+		seen.add(key);
+		uniq.push(t);
+	}
 
-	// Fallback: page title often contains a truncated post teaser.
+	const norm = (s) => s.toLowerCase().replace(/\s+/g, ' ').trim();
+	const teaser = norm(titleTeaser).slice(0, 48);
+
+	let text = '';
+	if (teaser.length >= 12) {
+		const matched = uniq
+			.filter(t => norm(t).includes(teaser) || teaser.includes(norm(t).slice(0, Math.min(40, teaser.length))))
+			.sort((a, b) => b.length - a.length);
+		if (matched.length) text = matched[0];
+	}
 	if (!text) {
-		const title = (document.title || '').replace(/\s*\|?\s*Facebook\s*$/i, '');
-		const parts = title.split(' - ');
-		if (parts.length >= 2) text = parts.slice(0, -1).join(' - ').replace(/^\(\d+\)\s*/, '');
+		// Prefer message blocks that appear near this post's pfbid in the HTML.
+		const pfbid = (location.pathname.match(/pfbid[A-Za-z0-9]+/) || [])[0];
+		if (pfbid) {
+			const idx = html.indexOf(pfbid);
+			if (idx >= 0) {
+				const window = html.slice(Math.max(0, idx - 8000), idx + 12000);
+				const local = [];
+				const re2 = /"message"\s*:\s*\{\s*"text"\s*:\s*"((?:\\.|[^"\\])*)"/g;
+				let m2;
+				while ((m2 = re2.exec(window)) !== null) {
+					const raw = decode(m2[1]);
+					if (raw.length >= 20) local.push(raw);
+				}
+				local.sort((a, b) => b.length - a.length);
+				if (local[0]) text = local[0];
+			}
+		}
+	}
+	if (!text) {
+		uniq.sort((a, b) => b.length - a.length);
+		text = uniq[0] || titleTeaser || '';
 	}
 
 	const isPostImage = (img) => {
@@ -324,7 +441,7 @@ const extractPostPageJS = `() => {
 		.filter((src, i, arr) => arr.indexOf(src) === i)
 		.slice(0, 8);
 
-	return { text, images };
+	return { text, images, titleTeaser };
 }`
 
 func decodeStringList(value interface{}) []string {
@@ -341,7 +458,26 @@ func decodeStringList(value interface{}) []string {
 	return out
 }
 
-var unreadPrefix = regexp.MustCompile(`(?i)^unread\s*`)
+var (
+	unreadPrefix = regexp.MustCompile(`(?i)^unread\s*`)
+	pfbidPattern = regexp.MustCompile(`pfbid[A-Za-z0-9]+`)
+)
+
+func profileSlug(raw string) string {
+	u, err := url.Parse(raw)
+	if err != nil {
+		return strings.Trim(raw, "/")
+	}
+	path := strings.Trim(u.Path, "/")
+	if path == "" {
+		return "profile.php"
+	}
+	// Keep first path segment (username / page slug).
+	if i := strings.IndexByte(path, '/'); i >= 0 {
+		path = path[:i]
+	}
+	return path
+}
 
 func cleanText(s string) string {
 	s = strings.ReplaceAll(s, "\u00a0", " ")

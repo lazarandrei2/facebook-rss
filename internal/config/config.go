@@ -23,6 +23,7 @@ type Config struct {
 	Headless     bool      `yaml:"headless"`
 	SessionPath  string    `yaml:"session_path"`
 	DatabasePath string    `yaml:"database_path"`
+	MaxPosts     int       `yaml:"max_posts"` // posts to fetch per profile
 	Feed         Feed      `yaml:"feed"`
 	Profiles     []Profile `yaml:"profiles"`
 }
@@ -38,6 +39,7 @@ func Load(path string) (*Config, error) {
 		Headless:     true,
 		SessionPath:  "session.json",
 		DatabasePath: "data/posts.db",
+		MaxPosts:     15,
 		Feed: Feed{
 			Title:       "Facebook RSS",
 			Link:        "http://localhost:8080/feed.xml",
@@ -46,6 +48,9 @@ func Load(path string) (*Config, error) {
 	}
 	if err := yaml.Unmarshal(data, cfg); err != nil {
 		return nil, fmt.Errorf("parse config: %w", err)
+	}
+	if cfg.MaxPosts <= 0 {
+		cfg.MaxPosts = 15
 	}
 	for i, p := range cfg.Profiles {
 		if p.URL == "" {
