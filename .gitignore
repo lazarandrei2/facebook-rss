@@ -1,0 +1,20 @@
+# Binary
+/facebook-rss
+/bin/
+
+# Local runtime data (keep secrets/local state out of git)
+/config.yaml
+/session.json
+/data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# feed.xml is committed so GitHub Pages can serve it
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp

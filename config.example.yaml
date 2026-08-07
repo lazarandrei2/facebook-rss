@@ -1,0 +1,21 @@
+# Copy to config.yaml and edit.
+
+listen: ":8080"
+
+# Browser settings
+headless: true
+session_path: session.json
+
+# SQLite database
+database_path: data/posts.db
+
+# Feed metadata shown to RSS readers
+feed:
+  title: Facebook RSS
+  link: https://lazarandrei2.github.io/facebook-rss/feed.xml
+  description: Latest posts from watched Facebook profiles
+
+# Profiles to monitor (public pages/profiles you can view while logged in)
+profiles:
+  - name: Example Profile
+    url: https://www.facebook.com/zuck
