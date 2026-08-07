@@ -2,6 +2,7 @@ package rssfeed
 
 import (
 	"fmt"
+	"strings"
 	"time"
 
 	"facebook-rss/internal/config"
@@ -29,7 +30,8 @@ func Build(cfg config.Feed, posts []store.Post) (string, error) {
 			Id:          p.ID,
 			Title:       title,
 			Link:        &feeds.Link{Href: p.URL},
-			Description: p.Content,
+			Description: plainSummary(p.Content),
+			Content:     p.Content,
 			Author:      &feeds.Author{Name: p.ProfileName},
 			Created:     p.PublishedAt,
 			Updated:     p.FetchedAt,
@@ -42,4 +44,28 @@ func Build(cfg config.Feed, posts []store.Post) (string, error) {
 		return "", fmt.Errorf("encode rss: %w", err)
 	}
 	return rss, nil
+}
+
+func plainSummary(htmlBody string) string {
+	s := htmlBody
+	for _, tag := range []string{"<p>", "</p>", "<br>", "<br/>", "<br />"} {
+		s = strings.ReplaceAll(s, tag, "\n")
+	}
+	// Strip remaining tags roughly.
+	for {
+		start := strings.IndexByte(s, '<')
+		if start < 0 {
+			break
+		}
+		end := strings.IndexByte(s[start:], '>')
+		if end < 0 {
+			break
+		}
+		s = s[:start] + s[start+end+1:]
+	}
+	s = strings.TrimSpace(s)
+	if len([]rune(s)) > 280 {
+		return string([]rune(s)[:277]) + "..."
+	}
+	return s
 }

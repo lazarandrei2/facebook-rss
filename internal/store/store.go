@@ -68,7 +68,7 @@ func (s *Store) migrate() error {
 	return nil
 }
 
-// Upsert inserts a post if new. Returns true when the post was newly inserted.
+// Upsert inserts or refreshes a post. Returns true when newly inserted.
 func (s *Store) Upsert(p Post) (bool, error) {
 	if p.FetchedAt.IsZero() {
 		p.FetchedAt = time.Now().UTC()
@@ -77,28 +77,57 @@ func (s *Store) Upsert(p Post) (bool, error) {
 		p.PublishedAt = p.FetchedAt
 	}
 
-	res, err := s.db.Exec(`
-		INSERT OR IGNORE INTO posts (
-			id, profile_url, profile_name, title, content, url, published_at, fetched_at
-		) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+	var exists int
+	if err := s.db.QueryRow(`SELECT COUNT(1) FROM posts WHERE id = ?`, p.ID).Scan(&exists); err != nil {
+		return false, fmt.Errorf("lookup post: %w", err)
+	}
+
+	if exists == 0 {
+		_, err := s.db.Exec(`
+			INSERT INTO posts (
+				id, profile_url, profile_name, title, content, url, published_at, fetched_at
+			) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+		`,
+			p.ID,
+			p.ProfileURL,
+			p.ProfileName,
+			p.Title,
+			p.Content,
+			p.URL,
+			p.PublishedAt.UTC().Format(time.RFC3339),
+			p.FetchedAt.UTC().Format(time.RFC3339),
+		)
+		if err != nil {
+			return false, fmt.Errorf("insert post: %w", err)
+		}
+		return true, nil
+	}
+
+	_, err := s.db.Exec(`
+		UPDATE posts
+		SET profile_url = ?, profile_name = ?, title = ?, content = ?, url = ?, fetched_at = ?
+		WHERE id = ?
 	`,
-		p.ID,
 		p.ProfileURL,
 		p.ProfileName,
 		p.Title,
 		p.Content,
 		p.URL,
-		p.PublishedAt.UTC().Format(time.RFC3339),
 		p.FetchedAt.UTC().Format(time.RFC3339),
+		p.ID,
 	)
 	if err != nil {
-		return false, fmt.Errorf("upsert post: %w", err)
+		return false, fmt.Errorf("update post: %w", err)
 	}
-	n, err := res.RowsAffected()
+	return false, nil
+}
+
+func (s *Store) Clear() error {
+	_, err := s.db.Exec(`DELETE FROM posts`)
 	if err != nil {
-		return false, err
+		return fmt.Errorf("clear posts: %w", err)
 	}
-	return n > 0, nil
+	return nil
 }
 
 func (s *Store) List(limit int) ([]Post, error) {
