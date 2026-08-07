@@ -1,6 +1,5 @@
-# Binary
-/facebook-rss
-/bin/
+# Node
+/node_modules/
 
 # Local runtime data (keep secrets/local state out of git)
 /config.yaml
@@ -10,6 +9,10 @@
 *.db-journal
 *.db-wal
 *.db-shm
+
+# Old Go binary
+/facebook-rss
+/bin/facebook-rss
 
 # feed.xml is committed so GitHub Pages can serve it
 

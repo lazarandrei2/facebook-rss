@@ -1,0 +1,24 @@
+{
+  "name": "facebook-rss",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Scrape Facebook profiles into an RSS feed",
+  "bin": {
+    "facebook-rss": "./bin/cli.js"
+  },
+  "scripts": {
+    "login": "node --disable-warning=ExperimentalWarning bin/cli.js login",
+    "fetch": "node --disable-warning=ExperimentalWarning bin/cli.js fetch",
+    "clean": "node --disable-warning=ExperimentalWarning bin/cli.js clean",
+    "publish": "node --disable-warning=ExperimentalWarning bin/cli.js publish",
+    "serve": "node --disable-warning=ExperimentalWarning bin/cli.js serve"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "playwright": "^1.54.2"
+  }
+}
