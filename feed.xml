@@ -3,46 +3,6 @@
     <title>Facebook RSS</title>
     <link>https://lazarandrei2.github.io/facebook-rss/feed.xml</link>
     <description>Latest posts from watched Facebook profiles</description>
-    <pubDate>Fri, 07 Aug 2026 23:44:47 +0300</pubDate>
-    <item>
-      <title>Cristian Scutariu</title>
-      <link>https://www.facebook.com/cristianscutariu.ro/posts/pfbid0cisn82aQbQn7oqzxHSTYaSWNJbGWPYH5bGhztctN4TrkvfThhMN5p2WscrN2WhMel</link>
-      <description>Cristian Scutariu</description>
-      <author>Cristian Scutariu</author>
-      <guid>c4abce1de8e16f991a111b228daac2cb81358c90</guid>
-      <pubDate>Fri, 07 Aug 2026 20:44:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>Facebook post</title>
-      <link>https://www.facebook.com/reel/</link>
-      <description></description>
-      <author>Example Profile</author>
-      <guid>e398ab81d1b01d9ddf6c1c2e8f8d08432d9008ab</guid>
-      <pubDate>Fri, 07 Aug 2026 20:35:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>UnreadCristian Scutariu added a photo: &#34;M-am trezit la Coreea de Sud - Cehia ...</title>
-      <link>https://www.facebook.com/cristianscutariu.ro/posts/pfbid0MfJbdep4izGh5XjJEHmMoDx9afmg5VTufwrS7dQ4WSqdR3wSN7bQzfj38MAVWFeMl</link>
-      <description>UnreadCristian Scutariu added a photo: &#34;M-am trezit la Coreea de Sud - Cehia 2-1. Fiți…&#34;</description>
-      <author>Example Profile</author>
-      <guid>e805958afced0b2311342e0817e4fef9ad400522</guid>
-      <pubDate>Fri, 07 Aug 2026 20:35:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>Nova Pulse BD</title>
-      <link>https://www.facebook.com/zuck/posts/pfbid0zj749AmbgWZJW7u9CJKm3QXhK2EUpCpt2EnPwvsnMi75tpnp28WupYta6SZngiCzl</link>
-      <description>Nova Pulse BD</description>
-      <author>Example Profile</author>
-      <guid>aefe1739a4b1820914fedfca5f70326b9d4f8830</guid>
-      <pubDate>Fri, 07 Aug 2026 20:35:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sufi Yan</title>
-      <link>https://www.facebook.com/zuck/posts/pfbid08tXp4xSmbTrLFW9S2aY3xcgdCcU1JRVHQBYQTVifztYXDjvCjXt5pJsCEmopyxj3l</link>
-      <description>Sufi Yan</description>
-      <author>Example Profile</author>
-      <guid>8a57ad71dd828bf395299fc9649a1b01da48b4a6</guid>
-      <pubDate>Fri, 07 Aug 2026 20:35:37 +0000</pubDate>
-    </item>
+    <pubDate>Fri, 07 Aug 2026 23:48:48 +0300</pubDate>
   </channel>
 </rss>
