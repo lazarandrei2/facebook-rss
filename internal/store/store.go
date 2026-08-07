@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"strings"
 	"time"
 
 	_ "modernc.org/sqlite"
@@ -134,18 +135,24 @@ func (s *Store) List(limit int) ([]Post, error) {
 	if limit <= 0 {
 		limit = 50
 	}
+	// Pull extra rows so content-duplicate filtering still fills the feed.
+	fetchLimit := limit * 3
+	if fetchLimit < 50 {
+		fetchLimit = 50
+	}
 	rows, err := s.db.Query(`
 		SELECT id, profile_url, profile_name, title, content, url, published_at, fetched_at
 		FROM posts
 		ORDER BY published_at DESC
 		LIMIT ?
-	`, limit)
+	`, fetchLimit)
 	if err != nil {
 		return nil, fmt.Errorf("list posts: %w", err)
 	}
 	defer rows.Close()
 
 	var posts []Post
+	seenTitle := map[string]bool{}
 	for rows.Next() {
 		var (
 			p            Post
@@ -172,7 +179,17 @@ func (s *Store) List(limit int) ([]Post, error) {
 		if err != nil {
 			return nil, fmt.Errorf("parse fetched_at: %w", err)
 		}
+		key := strings.ToLower(strings.Join(strings.Fields(p.Title), " "))
+		if key != "" {
+			if seenTitle[key] {
+				continue
+			}
+			seenTitle[key] = true
+		}
 		posts = append(posts, p)
+		if len(posts) >= limit {
+			break
+		}
 	}
 	return posts, rows.Err()
 }
