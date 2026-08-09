@@ -2,23 +2,31 @@
 
 listen: ":8080"
 
-# Browser settings
+# Browser settings (shared)
 headless: true
-session_path: session.json
 
-# How many posts to fetch per profile each run
+# How many posts/threads to fetch per profile each run
 max_posts: 15
 
-# SQLite database
-database_path: data/posts.db
+facebook:
+  session_path: session-facebook.json
+  database_path: data/facebook.db
+  feed:
+    title: Facebook RSS
+    link: https://lazarandrei2.github.io/facebook-rss/facebook.xml
+    description: Latest posts from watched Facebook profiles
+  profiles:
+    - name: Example Profile
+      url: https://www.facebook.com/zuck
 
-# Feed metadata shown to RSS readers
-feed:
-  title: Facebook RSS
-  link: https://lazarandrei2.github.io/facebook-rss/feed.xml
-  description: Latest posts from watched Facebook profiles
-
-# Profiles to monitor (public pages/profiles you can view while logged in)
-profiles:
-  - name: Example Profile
-    url: https://www.facebook.com/zuck
+twitter:
+  session_path: session-twitter.json
+  database_path: data/twitter.db
+  feed:
+    title: Twitter / X RSS
+    link: https://lazarandrei2.github.io/facebook-rss/twitter.xml
+    description: Latest posts and author-involved reply threads from watched X profiles
+  profiles:
+    - name: Example on X
+      url: https://x.com/jack
+      # handle: jack   # optional; derived from url when omitted
