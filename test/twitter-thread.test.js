@@ -7,7 +7,7 @@ import {
   threadPermalink,
   threadPublishedAt,
 } from "../lib/twitter-thread.js";
-import { selectAuthorConversation } from "../lib/twitter-scraper.js";
+import { selectAuthorConversation, snowflakeToIso } from "../lib/twitter-scraper.js";
 import { makeThreadTitle, renderThreadHTML } from "../lib/twitter-media.js";
 import { buildFeed } from "../lib/rssfeed.js";
 
@@ -175,4 +175,11 @@ test("twitter feed xml builds with thread item", () => {
   assert.match(xml, /<title>Twitter \/ X RSS<\/title>/);
   assert.match(xml, /hi back from me/);
   assert.match(xml, /View on X/);
+  assert.match(xml, /<pubDate>Sat, 01 Jun 2024 12:00:00 GMT<\/pubDate>/);
+  assert.match(xml, /<lastBuildDate>/);
+});
+
+test("snowflakeToIso decodes tweet create time", () => {
+  assert.equal(snowflakeToIso("2086493299469406339"), "2026-08-09T16:42:22.421Z");
+  assert.equal(snowflakeToIso(""), "");
 });
