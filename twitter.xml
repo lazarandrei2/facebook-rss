@@ -6,8 +6,22 @@
 	<title>Twitter</title>
 	<link>https://lazarandrei2.github.io/facebook-rss/twitter.xml</link>
 	<description>Latest posts and author-involved reply threads from watched X profiles</description>
-	<pubDate>Sun, 09 Aug 2026 14:48:47 GMT</pubDate>
+	<pubDate>Sun, 09 Aug 2026 20:59:55 GMT</pubDate>
 		    <item>
+	  <title>Mitchell Hashimoto: Beautiful summer weekend with family and friends in Seattle.</title>
+	  <link>https://x.com/mitchellh/status/2086493299469406339</link>
+	  <guid isPermaLink="false">71deb4857866bc8cb2058a74f48b3065eb25fa34</guid>
+	  <pubDate>Sun, 09 Aug 2026 16:42:22 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>Mitchell Hashimoto (@mitchellh) · post Beautiful summer weekend with family and friends in Seattle. View on X</description>
+	  <content:encoded><![CDATA[<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · post</p>
+<p>Beautiful summer weekend with family and friends in Seattle.</p>
+<p><img src="https://pbs.twimg.com/media/HPS2mNUaUAAIoaW?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<p><a href="https://x.com/mitchellh/status/2086493299469406339">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/media/HPS2mNUaUAAIoaW?format=jpg&amp;amp;name=large" type="application/octet-stream" length="0" />
+	  <media:content url="https://pbs.twimg.com/media/HPS2mNUaUAAIoaW?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
+    <item>
 	  <title>Mitchell Hashimoto reply: GitHub security advisory for now</title>
 	  <link>https://x.com/mitchellh/status/2085197661599306206</link>
 	  <guid isPermaLink="false">d2e22bf67fa01a0c7c1d2a5ba8580d9ba6731ca7</guid>
