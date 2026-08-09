@@ -6,9 +6,113 @@
 	<title>Twitter</title>
 	<link>https://lazarandrei2.github.io/facebook-rss/twitter.xml</link>
 	<description>Latest posts and author-involved reply threads from watched X profiles</description>
-	<pubDate>Sun, 09 Aug 2026 16:42:22 GMT</pubDate>
-	<lastBuildDate>Sun, 09 Aug 2026 21:24:11 GMT</lastBuildDate>
+	<pubDate>Sun, 09 Aug 2026 20:28:52 GMT</pubDate>
+	<lastBuildDate>Sun, 09 Aug 2026 21:33:10 GMT</lastBuildDate>
 		    <item>
+	  <title>Dax reply: yeah it actually supports importing openapi specs</title>
+	  <link>https://x.com/thdxr/status/2086311539783487530</link>
+	  <guid isPermaLink="false">9511edc0cc9ac2c28270aa10ae4d17abe01b45f6</guid>
+	  <pubDate>Sun, 09 Aug 2026 20:28:52 GMT</pubDate>
+	  <author>Dax</author>
+	  <description>dax (@thdxr) · post opencode2 has tool search and codemode built in this means it can handle infinite mcps, custom tools, apis, etc and it&apos;s the simplest implementation we&apos;ve seen dax (@thdxr) · reply you can try opencode2 now Daniel (@narwhster) · context u inspire me to be l...</description>
+	  <content:encoded><![CDATA[<p><strong>dax (@thdxr)</strong> · post</p>
+<p>opencode2 has tool search and codemode built in</p>
+<br/>
+<p>this means it can handle infinite mcps, custom tools, apis, etc</p>
+<br/>
+<p>and it's the simplest implementation we've seen</p>
+<p><img src="https://pbs.twimg.com/amplify_video_thumb/2085865265833594880/img/HO91MI2EQOJJhZ0X.jpg" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>you can try opencode2 now</p>
+<p><img src="https://pbs.twimg.com/card_img/2086038143904669696/2w3pPgd2?format=png&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>Daniel (@narwhster)</strong> · context</p>
+<p>u inspire me to be lazier every day.</p>
+<p><img src="https://pbs.twimg.com/card_img/2086546388599365632/PWNXSQh1?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>woah cool</p>
+<hr/>
+<p><strong>Katherine (@katheri84720133)</strong> · context</p>
+<p>OpenCode2's plan mode is incomplete, and I cannot continue using it. Please improve the basic functionalities first.</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>can you explain more?</p>
+<hr/>
+<p><strong>Michael Arnaldi (@michaelarnaldi)</strong> · context</p>
+<p>Promise.all ... internally we did some testing with isolates and letting the agent write Effect, works quite well</p>
+<hr/>
+<p><strong>Dev Agrawal (@devagrawal09)</strong> · context</p>
+<p>honestly that would be ideal from a capability perspective but i really like the minimal in process sandbox architecturally</p>
+<hr/>
+<p><strong>Michael Arnaldi (@michaelarnaldi)</strong> · context</p>
+<p>an isolate is quite cheap and doesn't require vibecoding an interpreter</p>
+<hr/>
+<p><strong>Dev Agrawal (@devagrawal09)</strong> · context</p>
+<p>yes you will get better results *today* by using isolates</p>
+<br/>
+<p>but this area will see more development soon and the capability gap will eventually disappear</p>
+<hr/>
+<p><strong>Michael Arnaldi (@michaelarnaldi)</strong> · context</p>
+<p>I don't see how a vibecoded js interpreter in js will ever be better than a normal runtime, there's tons of solutions one can use. My bet will be this will only end up producing leaks and bugs all over the place until it is finally replaced by a normal runtime</p>
+<hr/>
+<p><strong>Michael Arnaldi (@michaelarnaldi)</strong> · context</p>
+<p>Even Deno would be better, as much as I don't like it</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>this use case needs loops and conditionals so it can call a couple functions</p>
+<br/>
+<p>why would you over complicate that</p>
+<hr/>
+<p><strong>Michael Arnaldi (@michaelarnaldi)</strong> · context</p>
+<p>if you let the agent write code it will write code, transform outputs, pipe them, basically write normal JS code at the end. And imho a vibecoded custom JS interpreter feels much more over complicated than embedding a proper one</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>ok</p>
+<hr/>
+<p><strong>lil_zoro (@atulsharma052)</strong> · context</p>
+<p>Loving the new v2, v1's sync subagents, shell cmds &amp; agents stuck at preparing patch while creating large new files were a pain, all fixed now.</p>
+<br/>
+<p>Had to build a subagent_continue plugin since the inbuilt subagent tool only supports spawning new subagents. Keep up the good work</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>we're fixing that too</p>
+<hr/>
+<p><strong>manas takalpati (@manastak)</strong> · context</p>
+<p>what can v2 actually do better than v1? rn this just feels like a refactor.</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>here's an example</p>
+<hr/>
+<p><strong>Nan Yu (@thenanyu)</strong> · context</p>
+<p>Naïve question, but can’t you just go directly to full-blown APIs if this is the method rather than be limited by whatever the MCP tools are</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>yeah it actually supports importing openapi specs</p>
+<p><a href="https://x.com/thdxr/status/2086311539783487530">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/amplify_video_thumb/2085865265833594880/img/HO91MI2EQOJJhZ0X.jpg" type="video/mp4" length="0" />
+	  <media:content url="https://pbs.twimg.com/amplify_video_thumb/2085865265833594880/img/HO91MI2EQOJJhZ0X.jpg" type="video/mp4" medium="image" />
+	  <media:content url="https://pbs.twimg.com/card_img/2086038143904669696/2w3pPgd2?format=png&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	  <media:content url="https://pbs.twimg.com/card_img/2086546388599365632/PWNXSQh1?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
+    <item>
+	  <title>Dax: whenever i post about voice prompting people always say it&apos;s too much work to speak properly so t...</title>
+	  <link>https://x.com/thdxr/status/2086523544754593854</link>
+	  <guid isPermaLink="false">9d207a394b5c1d09d75f900cd4975b5e4231739e</guid>
+	  <pubDate>Sun, 09 Aug 2026 18:42:33 GMT</pubDate>
+	  <author>Dax</author>
+	  <description>dax (@thdxr) · post whenever i post about voice prompting people always say it&apos;s too much work to speak properly so the agent understands i don&apos;t think you get it, you don&apos;t have to speak properly at all View on X</description>
+	  <content:encoded><![CDATA[<p><strong>dax (@thdxr)</strong> · post</p>
+<p>whenever i post about voice prompting people always say it's too much work to speak properly so the agent understands</p>
+<br/>
+<p>i don't think you get it, you don't have to speak properly at all</p>
+<p><img src="https://pbs.twimg.com/media/HPTSGI8XYAAedIf?format=png&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<p><a href="https://x.com/thdxr/status/2086523544754593854">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/media/HPTSGI8XYAAedIf?format=png&amp;amp;name=large" type="application/octet-stream" length="0" />
+	  <media:content url="https://pbs.twimg.com/media/HPTSGI8XYAAedIf?format=png&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
+    <item>
 	  <title>Mitchell Hashimoto: Beautiful summer weekend with family and friends in Seattle.</title>
 	  <link>https://x.com/mitchellh/status/2086493299469406339</link>
 	  <guid isPermaLink="false">71deb4857866bc8cb2058a74f48b3065eb25fa34</guid>
@@ -21,6 +125,145 @@
 <p><a href="https://x.com/mitchellh/status/2086493299469406339">View on X</a></p>]]></content:encoded>
 	  <enclosure url="https://pbs.twimg.com/media/HPS2mNUaUAAIoaW?format=jpg&amp;amp;name=large" type="application/octet-stream" length="0" />
 	  <media:content url="https://pbs.twimg.com/media/HPS2mNUaUAAIoaW?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
+    <item>
+	  <title>Dax: &quot;we don&apos;t hire like other companies, we hire the top 1%&quot;</title>
+	  <link>https://x.com/thdxr/status/2086345860086960516</link>
+	  <guid isPermaLink="false">56bfebd017c0be43bb614390b02dc6396940ea35</guid>
+	  <pubDate>Sun, 09 Aug 2026 06:56:30 GMT</pubDate>
+	  <author>Dax</author>
+	  <description>dax (@thdxr) · post why are founders so in love with themselves these days don&apos;t get me wrong i love me but im not posting boring ass shit about how you should live your life and run your business like i do dax (@thdxr) · reply &amp;quot;we don&apos;t hire like other companies, we hire...</description>
+	  <content:encoded><![CDATA[<p><strong>dax (@thdxr)</strong> · post</p>
+<p>why are founders so in love with themselves these days</p>
+<br/>
+<p>don't get me wrong i love me</p>
+<br/>
+<p>but im not posting boring ass shit about how you should live your life and run your business like i do</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>&quot;we don't hire like other companies, we hire the top 1%&quot;</p>
+<br/>
+<p>- guy working on something so boring that i'm not even gonna learn about it for this joke</p>
+<p><a href="https://x.com/thdxr/status/2086345860086960516">View on X</a></p>]]></content:encoded>
+	</item>
+    <item>
+	  <title>Dax: i&apos;ve always pronounced it &quot;en-vidia&quot; but i keep hearing people say &quot;nuh-vidia&quot;</title>
+	  <link>https://x.com/thdxr/status/2086323298728599621</link>
+	  <guid isPermaLink="false">ea77eb34a760d49987a52e069ae7bf6b209d6183</guid>
+	  <pubDate>Sun, 09 Aug 2026 05:26:51 GMT</pubDate>
+	  <author>Dax</author>
+	  <description>dax (@thdxr) · post i&apos;ve always pronounced it &amp;quot;en-vidia&amp;quot; but i keep hearing people say &amp;quot;nuh-vidia&amp;quot; which is it View on X</description>
+	  <content:encoded><![CDATA[<p><strong>dax (@thdxr)</strong> · post</p>
+<p>i've always pronounced it &quot;en-vidia&quot; but i keep hearing people say &quot;nuh-vidia&quot;</p>
+<br/>
+<p>which is it</p>
+<p><a href="https://x.com/thdxr/status/2086323298728599621">View on X</a></p>]]></content:encoded>
+	</item>
+    <item>
+	  <title>Dax reply: this is coming</title>
+	  <link>https://x.com/thdxr/status/2086322985619648841</link>
+	  <guid isPermaLink="false">5494b519ba6ddc503eec613c99a6e7c48c23f5bd</guid>
+	  <pubDate>Sun, 09 Aug 2026 05:25:36 GMT</pubDate>
+	  <author>Dax</author>
+	  <description>Chip Huyen (@chipro) · original why don&apos;t model providers price tokens like electricity, higher price during peak hours and cheaper off peak? dax (@thdxr) · reply this is coming View on X</description>
+	  <content:encoded><![CDATA[<p><strong>Chip Huyen (@chipro)</strong> · original</p>
+<p>why don't model providers price tokens like electricity, higher price during peak hours and cheaper off peak?</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>this is coming</p>
+<p><a href="https://x.com/thdxr/status/2086322985619648841">View on X</a></p>]]></content:encoded>
+	</item>
+    <item>
+	  <title>Dax: &quot;we&apos;re gonna beat them with &lt;idea they can copy if it works&gt;&quot;</title>
+	  <link>https://x.com/thdxr/status/2086321673825866159</link>
+	  <guid isPermaLink="false">a95b648fc08c8231bb320b6be531a9b9a1555547</guid>
+	  <pubDate>Sun, 09 Aug 2026 05:20:23 GMT</pubDate>
+	  <author>Dax</author>
+	  <description>dax (@thdxr) · post &amp;quot;we&apos;re gonna beat them with &amp;lt;idea they can copy if it works&amp;gt;&amp;quot; View on X</description>
+	  <content:encoded><![CDATA[<p><strong>dax (@thdxr)</strong> · post</p>
+<p>&quot;we're gonna beat them with &lt;idea they can copy if it works&gt;&quot;</p>
+<p><a href="https://x.com/thdxr/status/2086321673825866159">View on X</a></p>]]></content:encoded>
+	</item>
+    <item>
+	  <title>Dax reply: this is cool</title>
+	  <link>https://x.com/thdxr/status/2086252639092674653</link>
+	  <guid isPermaLink="false">567d8c379a444ad529108f0648bb92b6ecb4b6c2</guid>
+	  <pubDate>Sun, 09 Aug 2026 00:46:04 GMT</pubDate>
+	  <author>Dax</author>
+	  <description>vogel (@ryanvogel) · original rebase updates: - subsecond realtime video - better performance - a special treat for non english speakers??? dax (@thdxr) · reply this is cool View on X</description>
+	  <content:encoded><![CDATA[<p><strong>vogel (@ryanvogel)</strong> · original</p>
+<p>rebase updates:</p>
+<br/>
+<p>- subsecond realtime video</p>
+<p>- better performance</p>
+<p>- a special treat for non english speakers???</p>
+<p><img src="https://pbs.twimg.com/amplify_video_thumb/2086232944188829696/img/e9aDZaJW3rDNucZu.jpg" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>this is cool</p>
+<p><a href="https://x.com/thdxr/status/2086252639092674653">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/amplify_video_thumb/2086232944188829696/img/e9aDZaJW3rDNucZu.jpg" type="video/mp4" length="0" />
+	  <media:content url="https://pbs.twimg.com/amplify_video_thumb/2086232944188829696/img/e9aDZaJW3rDNucZu.jpg" type="video/mp4" medium="image" />
+	</item>
+    <item>
+	  <title>Dax reply: yeah yeah but this is 850 credit score white</title>
+	  <link>https://x.com/thdxr/status/2086243715077599480</link>
+	  <guid isPermaLink="false">9cb4e56687adcd3179fc09322a9163cb60bda671</guid>
+	  <pubDate>Sun, 09 Aug 2026 00:14:58 GMT</pubDate>
+	  <author>Dax</author>
+	  <description>dax (@thdxr) · post should i use white guy voice in my videos instead dax (@thdxr) · reply btw i had to clip this because it processed the outro music and it&apos;s completely terrifying (listen to the end) Max (@selzer25) · context is this real?!!?! dax (@thdxr) · reply yeah patag...</description>
+	  <content:encoded><![CDATA[<p><strong>dax (@thdxr)</strong> · post</p>
+<p>should i use white guy voice in my videos instead</p>
+<p><img src="https://pbs.twimg.com/amplify_video_thumb/2085865265833594880/img/HO91MI2EQOJJhZ0X.jpg" alt="" style="max-width:100%;height:auto" /></p>
+<p><img src="https://pbs.twimg.com/amplify_video_thumb/2086241703493574656/img/UbrfkkHkdk_UnX8t.jpg" alt="" style="max-width:100%;height:auto" /></p>
+<p><img src="https://pbs.twimg.com/amplify_video_thumb/2085865265833594880/img/HO91MI2EQOJJhZ0X?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>btw i had to clip this because it processed the outro music and it's completely terrifying (listen to the end)</p>
+<p><img src="https://pbs.twimg.com/amplify_video_thumb/2086242245515116544/img/KOUaIrmuzq3ZfCjO.jpg" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>Max (@selzer25)</strong> · context</p>
+<p>is this real?!!?!</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>yeah</p>
+<hr/>
+<p><strong>patagucci perf papi (@kenwheeler)</strong> · context</p>
+<p>you already have a white guy voice</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>yeah yeah but this is 850 credit score white</p>
+<p><a href="https://x.com/thdxr/status/2086243715077599480">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/amplify_video_thumb/2085865265833594880/img/HO91MI2EQOJJhZ0X.jpg" type="video/mp4" length="0" />
+	  <media:content url="https://pbs.twimg.com/amplify_video_thumb/2085865265833594880/img/HO91MI2EQOJJhZ0X.jpg" type="video/mp4" medium="image" />
+	  <media:content url="https://pbs.twimg.com/amplify_video_thumb/2086241703493574656/img/UbrfkkHkdk_UnX8t.jpg" type="video/mp4" medium="image" />
+	  <media:content url="https://pbs.twimg.com/amplify_video_thumb/2085865265833594880/img/HO91MI2EQOJJhZ0X?format=jpg&amp;amp;name=large" type="video/mp4" medium="image" />
+	  <media:content url="https://pbs.twimg.com/amplify_video_thumb/2086242245515116544/img/KOUaIrmuzq3ZfCjO.jpg" type="video/mp4" medium="image" />
+	</item>
+    <item>
+	  <title>Dax reply: what is automode?</title>
+	  <link>https://x.com/thdxr/status/2086201545356349815</link>
+	  <guid isPermaLink="false">708244f36b030d05937205b0b05b7ba0411ef7ca</guid>
+	  <pubDate>Sat, 08 Aug 2026 21:23:02 GMT</pubDate>
+	  <author>Dax</author>
+	  <description>Vivek Kaushal (@vi_kaushal) · original folks at @opencode -- is deepseek v4 down? @thdxr Vivek Kaushal (@vi_kaushal) · context Interesting, turning the auto-mode off fixed this. dax (@thdxr) · reply what is automode? View on X</description>
+	  <content:encoded><![CDATA[<p><strong>Vivek Kaushal (@vi_kaushal)</strong> · original</p>
+<p>folks at</p>
+<p>@opencode</p>
+<p>-- is deepseek v4 down?</p>
+<br/>
+<br/>
+<p>@thdxr</p>
+<p><img src="https://pbs.twimg.com/media/HPOrZfaacAAP5DJ?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>Vivek Kaushal (@vi_kaushal)</strong> · context</p>
+<p>Interesting, turning the auto-mode off fixed this.</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>what is automode?</p>
+<p><a href="https://x.com/thdxr/status/2086201545356349815">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/media/HPOrZfaacAAP5DJ?format=jpg&amp;amp;name=large" type="application/octet-stream" length="0" />
+	  <media:content url="https://pbs.twimg.com/media/HPOrZfaacAAP5DJ?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
 	</item>
     <item>
 	  <title>Mitchell Hashimoto reply: GitHub security advisory for now</title>
@@ -105,6 +348,137 @@
 	  <enclosure url="https://pbs.twimg.com/amplify_video_thumb/2084713351448322048/img/vRR_Ymi39-VwLIZs.jpg" type="video/mp4" length="0" />
 	  <media:content url="https://pbs.twimg.com/amplify_video_thumb/2084713351448322048/img/vRR_Ymi39-VwLIZs.jpg" type="video/mp4" medium="image" />
 	  <media:content url="https://pbs.twimg.com/card_img/2085024212839022592/ue2b87A0?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
+    <item>
+	  <title>Mitchell Hashimoto reply: Doing it now. I always was turned off by the huge form that I figured put me into some slow queue.</title>
+	  <link>https://x.com/mitchellh/status/2085049180037488910</link>
+	  <guid isPermaLink="false">feae7711b33927c86c50fabde5474d82baae4880</guid>
+	  <pubDate>Wed, 05 Aug 2026 17:03:57 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>Mitchell Hashimoto (@mitchellh) · post Been fighting the Great Firewall of America all day (Fable too, though this screenshot is from Codex). I truly believe this is resulting in software being less secure because we can&apos;t find and fix security issues in our own software that ...</description>
+	  <content:encoded><![CDATA[<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · post</p>
+<p>Been fighting the Great Firewall of America all day (Fable too, though this screenshot is from Codex). I truly believe this is resulting in software being less secure because we can't find and fix security issues in our own software that we control without a bunch of red tape.</p>
+<p><img src="https://pbs.twimg.com/media/HO-HlZmacAA3oBB?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>Cadam (@cadamsafc)</strong> · context</p>
+<p>It takes no longer than 2 minutes to apply and get approved for Trusted Access. (unless they changes something in the last month)</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Doing it now. I always was turned off by the huge form that I figured put me into some slow queue.</p>
+<p><a href="https://x.com/mitchellh/status/2085049180037488910">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/media/HO-HlZmacAA3oBB?format=jpg&amp;amp;name=large" type="application/octet-stream" length="0" />
+	  <media:content url="https://pbs.twimg.com/media/HO-HlZmacAA3oBB?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
+    <item>
+	  <title>Mitchell Hashimoto reply: I haven&apos;t seen this happen yet but that sounds pretty fucking awful lol.</title>
+	  <link>https://x.com/mitchellh/status/2085039951184597411</link>
+	  <guid isPermaLink="false">db03a3753d1ed2e51645b48a0ba83774dafed2c8</guid>
+	  <pubDate>Wed, 05 Aug 2026 16:27:17 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>» teej (@teej_m) · original If you get downgraded for cybersecurity, it poisons every other conversation. Other threads get nuked just by using history search. Mitchell Hashimoto (@mitchellh) · reply I haven&apos;t seen this happen yet but that sounds pretty fucking awful lol. View...</description>
+	  <content:encoded><![CDATA[<p><strong>» teej (@teej_m)</strong> · original</p>
+<p>If you get downgraded for cybersecurity, it poisons every other conversation. Other threads get nuked just by using history search.</p>
+<p><img src="https://pbs.twimg.com/media/HO-HlZmacAA3oBB?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>I haven't seen this happen yet but that sounds pretty fucking awful lol.</p>
+<p><a href="https://x.com/mitchellh/status/2085039951184597411">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/media/HO-HlZmacAA3oBB?format=jpg&amp;amp;name=large" type="application/octet-stream" length="0" />
+	  <media:content url="https://pbs.twimg.com/media/HO-HlZmacAA3oBB?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
+    <item>
+	  <title>Mitchell Hashimoto: In many cases working around this is rather trivial, albeit annoying, which further reinforces my...</title>
+	  <link>https://x.com/mitchellh/status/2085035369977049281</link>
+	  <guid isPermaLink="false">4eb74ab70d905d7de080f30d87c9e70495abb7be</guid>
+	  <pubDate>Wed, 05 Aug 2026 16:06:56 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>Mitchell Hashimoto (@mitchellh) · post In many cases working around this is rather trivial, albeit annoying, which further reinforces my point this is dumb. I&apos;m not going to share my specific tactics but through simple word replacement and social engineering (the agent), I&apos;ve ...</description>
+	  <content:encoded><![CDATA[<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · post</p>
+<p>In many cases working around this is rather trivial, albeit annoying, which further reinforces my point this is dumb. I'm not going to share my specific tactics but through simple word replacement and social engineering (the agent), I've gotten around this almost every time.</p>
+<p><img src="https://pbs.twimg.com/media/HO-HlZmacAA3oBB?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<p><a href="https://x.com/mitchellh/status/2085035369977049281">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/media/HO-HlZmacAA3oBB?format=jpg&amp;amp;name=large" type="application/octet-stream" length="0" />
+	  <media:content url="https://pbs.twimg.com/media/HO-HlZmacAA3oBB?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
+    <item>
+	  <title>Mitchell Hashimoto reply: @almonk</title>
+	  <link>https://x.com/mitchellh/status/2084632947576164563</link>
+	  <guid isPermaLink="false">7c1a85d06d1dfb04017d73aa1548174e77dbf111</guid>
+	  <pubDate>Tue, 04 Aug 2026 20:48:16 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>Mitchell Hashimoto (@mitchellh) · post Deck icons: a dynamically changing set of icons based on what&apos;s running in your multiplexer. You&apos;ve seen SuperSplit (early iterations) before, but this is also a small showcase of SuperTabs, our custom native tab kit. And yes, vertical ta...</description>
+	  <content:encoded><![CDATA[<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · post</p>
+<p>Deck icons: a dynamically changing set of icons based on what's running in your multiplexer. You've seen SuperSplit (early iterations) before, but this is also a small showcase of SuperTabs, our custom native tab kit. And yes, vertical tabs already work too.</p>
+<p><img src="https://pbs.twimg.com/amplify_video_thumb/2084548568820469760/img/koRmXzve7h-b_JHC.jpg" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>doroved (@doroved)</strong> · context</p>
+<p>When will the beta version be released?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>When it's ready, but hoping within months</p>
+<hr/>
+<p><strong>Hamza Y (@cruzancaramele)</strong> · context</p>
+<p>Will we get native cut and paste?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Believe it or not, yes</p>
+<hr/>
+<p><strong>Turan (@turanmahmudov)</strong> · context</p>
+<p>I am just wondering. Can't you take app icons from .desktop files (on linux, not sure about mac alternative) instead of shipping hundreds of icons yourself?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Licensing issues, but if you're on the same machine, we do read those out and show those (since we assume its you consuming your own software)</p>
+<hr/>
+<p><strong>Emilio Font (@emiifont)</strong> · context</p>
+<p>Linux demo?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>No Linux app yet, just bandwidth constraint. Depending on hiring and so on would love to get there. We have the vision just need the hours :)</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>I should clarify: the server has no problem and the browser app has no problem and the legacy TUI has no problem. I’m talking about a native app</p>
+<hr/>
+<p><strong>fabrico (@demfabris)</strong> · context</p>
+<p>mac only?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>No</p>
+<hr/>
+<p><strong>Swift Dev (@swiftdev_ui)</strong> · context</p>
+<p>Where are the icons coming from?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>@almonk</p>
+<p>Hand-drawn, hand-curated, and we'll do that for hundreds of things. We're also experimenting with a new terminal protocol to ship icon sets (that work in a variety of sizes, light/dark, etc.). We're also playing with things like Apple foundation models.</p>
+<p><a href="https://x.com/mitchellh/status/2084632947576164563">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/amplify_video_thumb/2084548568820469760/img/koRmXzve7h-b_JHC.jpg" type="video/mp4" length="0" />
+	  <media:content url="https://pbs.twimg.com/amplify_video_thumb/2084548568820469760/img/koRmXzve7h-b_JHC.jpg" type="video/mp4" medium="image" />
+	</item>
+    <item>
+	  <title>Mitchell Hashimoto reply: And fwiw, its not a &quot;failure.&quot; I shouldn&apos;t have used that word. It is genuinely hard, and I feel ...</title>
+	  <link>https://x.com/mitchellh/status/2084729934531178873</link>
+	  <guid isPermaLink="false">243664ab8bc7d94f99572adbbe80843c87cba9be</guid>
+	  <pubDate>Tue, 04 Aug 2026 19:55:23 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>Mitchell Hashimoto (@mitchellh) · post A sad thing I see is when companies start becoming reactive over proactive. Its a clear external sign that the leadership has lost vision. They make decisions they feel are safe instead of through conviction of a future. The problem is th...</description>
+	  <content:encoded><![CDATA[<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · post</p>
+<p>A sad thing I see is when companies start becoming reactive over proactive. Its a clear external sign that the leadership has lost vision. They make decisions they feel are safe instead of through conviction of a future. The problem is that &quot;safe&quot; almost always means following someone else.</p>
+<br/>
+<p>This isn't a clear sign of death, but it is a very difficult position to be in...</p>
+<br/>
+<p>For me personally, I hate seeing it because so many companies start with a genuinely interesting vision. Then the world changes, they lose confidence in that vision, and instead of finding a new way to adapt and express it, they start chasing whatever everyone else is doing.</p>
+<br/>
+<p>It happens during every major secular shift. AI is the obvious current example. A lot of companies that looked exciting just a few years ago now feel like they're playing catch-up instead of leading. Its a tough thing to watch.</p>
+<hr/>
+<p><strong>Carl Lerche (@carllerche)</strong> · context</p>
+<p>I agree, though AI is a huge shift and it is really hard to predict where exactly it is heading. Curious if you have any specific examples you are OK calling out.</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>I don't feel comfortable calling anyone out... And yes its hard to predict but thats the whole job of being the &quot;visionary founder.&quot; You start with some audacious vision of where the future is going, then it shifts, then you fail to adapt to that shift. It is hard.</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>And fwiw, its not a &quot;failure.&quot; I shouldn't have used that word. It is genuinely hard, and I feel really bad, and you can't expect people to reliably do this. Its just hard to watch because these people are usually both really smart AND had a compelling vision before and you just wanted the best for them.</p>
+<p><a href="https://x.com/mitchellh/status/2084729934531178873">View on X</a></p>]]></content:encoded>
 	</item>
   </channel>
 </rss>
