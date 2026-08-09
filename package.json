@@ -1,9 +1,9 @@
 {
   "name": "facebook-rss",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "type": "module",
-  "description": "Scrape Facebook profiles into an RSS feed",
+  "description": "Scrape Facebook and X/Twitter profiles into RSS feeds (facebook.xml + twitter.xml)",
   "bin": {
     "facebook-rss": "./bin/cli.js"
   },
@@ -13,7 +13,7 @@
     "clean": "node --disable-warning=ExperimentalWarning bin/cli.js clean",
     "publish": "node --disable-warning=ExperimentalWarning bin/cli.js publish",
     "serve": "node --disable-warning=ExperimentalWarning bin/cli.js serve",
-    "test": "node --disable-warning=ExperimentalWarning test/media.test.js"
+    "test": "node --disable-warning=ExperimentalWarning test/media.test.js && node --disable-warning=ExperimentalWarning test/twitter-thread.test.js && node --disable-warning=ExperimentalWarning test/config.test.js"
   },
   "engines": {
     "node": ">=22"

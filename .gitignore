@@ -4,6 +4,8 @@
 # Local runtime data (keep secrets/local state out of git)
 /config.yaml
 /session.json
+/session-facebook.json
+/session-twitter.json
 /data/
 *.db
 *.db-journal
@@ -14,7 +16,7 @@
 /facebook-rss
 /bin/facebook-rss
 
-# feed.xml is committed so GitHub Pages can serve it
+# facebook.xml / twitter.xml / feed.xml are committed so GitHub Pages can serve them
 
 # OS / editor
 .DS_Store
