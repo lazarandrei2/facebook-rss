@@ -6,9 +6,210 @@
 	<title>Twitter</title>
 	<link>https://lazarandrei2.github.io/facebook-rss/twitter.xml</link>
 	<description>Latest posts and author-involved reply threads from watched X profiles</description>
-	<pubDate>Mon, 10 Aug 2026 16:33:26 GMT</pubDate>
-	<lastBuildDate>Mon, 10 Aug 2026 17:00:08 GMT</lastBuildDate>
+	<pubDate>Mon, 10 Aug 2026 19:27:58 GMT</pubDate>
+	<lastBuildDate>Mon, 10 Aug 2026 19:51:17 GMT</lastBuildDate>
 		    <item>
+	  <title>Dax reply: the opencode desktop beta channel is going to be upgraded to v2 today or tomorrow</title>
+	  <link>https://x.com/thdxr/status/2086897363470196963</link>
+	  <guid isPermaLink="false">046765677a00351fa576710120a81fc80fe387c8</guid>
+	  <pubDate>Mon, 10 Aug 2026 19:27:58 GMT</pubDate>
+	  <author>Dax</author>
+	  <description>dax (@thdxr) · post opencode2 api is very good people are making radically different frontends for it Awais (@uxawais) · context Does it have desktop version? Milo (@itsmilohq) · context yeah https:// opencode.ai/en/download Awais (@uxawais) · context No for V2 Milo (@itsmiloh...</description>
+	  <content:encoded><![CDATA[<p><strong>dax (@thdxr)</strong> · post</p>
+<p>opencode2 api is very good</p>
+<p>people are making radically different frontends for it</p>
+<p><img src="https://pbs.twimg.com/amplify_video_thumb/2086856046258122753/img/xiLDFf-9Pde3UtJk.jpg" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>Awais (@uxawais)</strong> · context</p>
+<p>Does it have desktop version?</p>
+<hr/>
+<p><strong>Milo (@itsmilohq)</strong> · context</p>
+<p>yeah</p>
+<p>https://</p>
+<p>opencode.ai/en/download</p>
+<hr/>
+<p><strong>Awais (@uxawais)</strong> · context</p>
+<p>No for V2</p>
+<hr/>
+<p><strong>Milo (@itsmilohq)</strong> · context</p>
+<br/>
+<p><img src="https://pbs.twimg.com/card_img/2086038143904669696/2w3pPgd2?format=png&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>Awais (@uxawais)</strong> · context</p>
+<p>I'm currently using Desktop app of Opencode for day2day tasks but I wanna know if there is Desktop Beta App Version. I think only beta version is Terminal one.</p>
+<hr/>
+<p><strong>Milo (@itsmilohq)</strong> · context</p>
+<p>If you can't download it from their website, then it is not available rn, but they have done a little update on the open-source code on github (on the desktop app but nothing crazy just bug fixes)</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>the opencode desktop beta channel is going to be upgraded to v2 today or tomorrow</p>
+<p><a href="https://x.com/thdxr/status/2086897363470196963">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/amplify_video_thumb/2086856046258122753/img/xiLDFf-9Pde3UtJk.jpg" type="video/mp4" length="0" />
+	  <media:content url="https://pbs.twimg.com/amplify_video_thumb/2086856046258122753/img/xiLDFf-9Pde3UtJk.jpg" type="video/mp4" medium="image" />
+	  <media:content url="https://pbs.twimg.com/card_img/2086038143904669696/2w3pPgd2?format=png&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
+    <item>
+	  <title>Dax reply: i said how software works</title>
+	  <link>https://x.com/thdxr/status/2086873058946535473</link>
+	  <guid isPermaLink="false">7f46196923d4dd7e342ed6ec16f191f5b80ab3fd</guid>
+	  <pubDate>Mon, 10 Aug 2026 18:10:00 GMT</pubDate>
+	  <author>Dax</author>
+	  <description>dax (@thdxr) · post the focus on whether you read the code or not is the wrong thing to look at if you have software you&apos;re responsible for, you should be able to answer questions from memory about how it works the expectations for how well you can do this should not be any di...</description>
+	  <content:encoded><![CDATA[<p><strong>dax (@thdxr)</strong> · post</p>
+<p>the focus on whether you read the code or not is the wrong thing to look at</p>
+<br/>
+<p>if you have software you're responsible for, you should be able to answer questions from memory about how it works</p>
+<br/>
+<p>the expectations for how well you can do this should not be any different now</p>
+<hr/>
+<p><strong>Tianyi-天轶 (@tian_yi_wang)</strong> · context</p>
+<p>Do you still need to know which file or which function responsible for how certain things work?</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>this was never a realistic expectation. rough sense of layout and files and organization is fine and always has been</p>
+<hr/>
+<p><strong>Emad777 (@emad777_)</strong> · context</p>
+<p>Agreed, but does this mean to read much code? You can pretty much understand the project by understanding how it's architectured and this - I think - don't require to read much code but to build mental models covering the project.</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>it might in some cases</p>
+<p>might not in other cases</p>
+<p>often times you can ask the model questions on how it works</p>
+<hr/>
+<p><strong>dbet (@dpbetya)</strong> · context</p>
+<p>Idk I could never answer you a question about how code works a mere month or two after writing it.</p>
+<br/>
+<p>A full year later there are just legends of its existence.</p>
+<br/>
+<p>Thats just me?</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>i said how software works</p>
+<p>not how code works</p>
+<p><a href="https://x.com/thdxr/status/2086873058946535473">View on X</a></p>]]></content:encoded>
+	</item>
+    <item>
+	  <title>Dax reply: this is so good</title>
+	  <link>https://x.com/thdxr/status/2086875964718395880</link>
+	  <guid isPermaLink="false">ceaf9be6f9dd3691b62947938dced1e889023fda</guid>
+	  <pubDate>Mon, 10 Aug 2026 18:02:56 GMT</pubDate>
+	  <author>Dax</author>
+	  <description>Stefan (@stefantmd) · original sometimes we joins another companies teams invite and I always forget my teams background is from Halo dax (@thdxr) · reply this is so good View on X</description>
+	  <content:encoded><![CDATA[<p><strong>Stefan (@stefantmd)</strong> · original</p>
+<p>sometimes we joins another companies teams invite</p>
+<br/>
+<p>and I always forget my teams background is from Halo</p>
+<p><img src="https://pbs.twimg.com/media/HPYSTUAWoAAxyu5?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>this is so good</p>
+<p><a href="https://x.com/thdxr/status/2086875964718395880">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/media/HPYSTUAWoAAxyu5?format=jpg&amp;amp;name=large" type="application/octet-stream" length="0" />
+	  <media:content url="https://pbs.twimg.com/media/HPYSTUAWoAAxyu5?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
+    <item>
+	  <title>Dax (reply)</title>
+	  <link>https://x.com/thdxr/status/2086873474706837913</link>
+	  <guid isPermaLink="false">6ad366c0e7ec283ac3c0528b6161b702bae742db</guid>
+	  <pubDate>Mon, 10 Aug 2026 17:53:03 GMT</pubDate>
+	  <author>Dax</author>
+	  <description>Darren Shepherd (@ibuildthecloud) · original somebody has to be building github for agents. I need that. I&apos;ll start building it, because that&apos;s what I do. But who&apos;s got products that they want to sell to me? dax (@thdxr) · reply View on X</description>
+	  <content:encoded><![CDATA[<p><strong>Darren Shepherd (@ibuildthecloud)</strong> · original</p>
+<p>somebody has to be building github for agents. I need that. I'll start building it, because that's what I do. But who's got products that they want to sell to me?</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<br/>
+<p><img src="https://pbs.twimg.com/card_img/2082862571313410048/R3iuMXBO?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<p><a href="https://x.com/thdxr/status/2086873474706837913">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/card_img/2082862571313410048/R3iuMXBO?format=jpg&amp;amp;name=large" type="application/octet-stream" length="0" />
+	  <media:content url="https://pbs.twimg.com/card_img/2082862571313410048/R3iuMXBO?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
+    <item>
+	  <title>Dax reply: can you say more</title>
+	  <link>https://x.com/thdxr/status/2086841596624945536</link>
+	  <guid isPermaLink="false">b40aae44d9027233557f6d56c245bcd6369e0102</guid>
+	  <pubDate>Mon, 10 Aug 2026 17:17:31 GMT</pubDate>
+	  <author>Dax</author>
+	  <description>dax (@thdxr) · post if you&apos;re an opencode user can you post a screenshot in the replies of your layout? Michael (@timefoschoo) · context had to opt out of v2 for now because plan mode sucks ass dax (@thdxr) · reply we&apos;re fixing plan mode today. but was there anything specific ...</description>
+	  <content:encoded><![CDATA[<p><strong>dax (@thdxr)</strong> · post</p>
+<p>if you're an opencode user can you post a screenshot in the replies of your layout?</p>
+<hr/>
+<p><strong>Michael (@timefoschoo)</strong> · context</p>
+<p>had to opt out of v2 for now because plan mode sucks ass</p>
+<p><img src="https://pbs.twimg.com/media/HPYHgdmXAAAv-Ct?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>we're fixing plan mode today. but was there anything specific you ran into?</p>
+<hr/>
+<p><strong>SlowJoCrow (@slowjocrow1)</strong> · context</p>
+<p>I've been reading V2 reviews and came across this</p>
+<br/>
+<p>&quot;Until It stops converting every single source file it touches to UTF-8, it's not possible for me to use it in production.&quot;</p>
+<br/>
+<p>Is that a real concern? Personally doesn't bother me but could be critical to some</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>where did you come across that comment?</p>
+<hr/>
+<p><strong>SlowJoCrow (@slowjocrow1)</strong> · context</p>
+<br/>
+<p><img src="https://pbs.twimg.com/card_img/2086852074516672513/0FmzL1c5?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>hm this is an issue in v1 and claude code as well so not new. will try to fix either way</p>
+<hr/>
+<p><strong>Playwo (@playwo_)</strong> · context</p>
+<p>Usually somewhere between 1 and 3 tabs.</p>
+<p>Each dockerized separately which performs kinda bad with V2 :/</p>
+<br/>
+<p>IDE on another monitor.</p>
+<p><img src="https://pbs.twimg.com/media/HPXz4EGX0AEEaUp?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>why performing bad with v2?</p>
+<hr/>
+<p><strong>Potato (@ivanfenenko)</strong> · context</p>
+<p>Lol. I have the one nobody else has  (for now)</p>
+<p><img src="https://pbs.twimg.com/media/HPX0AKjWEAArx4V?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>is this on v2 api?</p>
+<hr/>
+<p><strong>Rex Ho (@rex_ho999)</strong> · context</p>
+<p>I like the previous layout rather than the new</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>can you say more</p>
+<p><a href="https://x.com/thdxr/status/2086841596624945536">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/media/HPYHgdmXAAAv-Ct?format=jpg&amp;amp;name=large" type="application/octet-stream" length="0" />
+	  <media:content url="https://pbs.twimg.com/media/HPYHgdmXAAAv-Ct?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	  <media:content url="https://pbs.twimg.com/card_img/2086852074516672513/0FmzL1c5?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	  <media:content url="https://pbs.twimg.com/media/HPXz4EGX0AEEaUp?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	  <media:content url="https://pbs.twimg.com/media/HPX0AKjWEAArx4V?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
+    <item>
+	  <title>Dax reply: not officially but yes it&apos;s here</title>
+	  <link>https://x.com/thdxr/status/2086863931415425528</link>
+	  <guid isPermaLink="false">dbfa91ff6d5a23b87d68d98ed403127c5e505426</guid>
+	  <pubDate>Mon, 10 Aug 2026 17:15:07 GMT</pubDate>
+	  <author>Dax</author>
+	  <description>dax (@thdxr) · post operation cheapseek Lakshman Patel (@lakshman2302) · context Perfect Is opencode v2 released? dax (@thdxr) · reply not officially but yes it&apos;s here View on X</description>
+	  <content:encoded><![CDATA[<p><strong>dax (@thdxr)</strong> · post</p>
+<p>operation cheapseek</p>
+<hr/>
+<p><strong>Lakshman Patel (@lakshman2302)</strong> · context</p>
+<p>Perfect</p>
+<br/>
+<p>Is opencode v2 released?</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>not officially but yes it's here</p>
+<p><img src="https://pbs.twimg.com/card_img/2086038143904669696/2w3pPgd2?format=png&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<p><a href="https://x.com/thdxr/status/2086863931415425528">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/card_img/2086038143904669696/2w3pPgd2?format=png&amp;amp;name=large" type="application/octet-stream" length="0" />
+	  <media:content url="https://pbs.twimg.com/card_img/2086038143904669696/2w3pPgd2?format=png&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
+    <item>
 	  <title>Dax reply: nice!</title>
 	  <link>https://x.com/thdxr/status/2086835025031430413</link>
 	  <guid isPermaLink="false">db4565a5917cab5e2077f2843de5f49093d13b76</guid>
