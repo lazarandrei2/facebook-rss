@@ -6,9 +6,173 @@
 	<title>Twitter</title>
 	<link>https://lazarandrei2.github.io/facebook-rss/twitter.xml</link>
 	<description>Latest posts and author-involved reply threads from watched X profiles</description>
-	<pubDate>Mon, 10 Aug 2026 04:32:49 GMT</pubDate>
-	<lastBuildDate>Mon, 10 Aug 2026 09:10:54 GMT</lastBuildDate>
+	<pubDate>Mon, 10 Aug 2026 16:33:26 GMT</pubDate>
+	<lastBuildDate>Mon, 10 Aug 2026 17:00:08 GMT</lastBuildDate>
 		    <item>
+	  <title>Dax reply: nice!</title>
+	  <link>https://x.com/thdxr/status/2086835025031430413</link>
+	  <guid isPermaLink="false">db4565a5917cab5e2077f2843de5f49093d13b76</guid>
+	  <pubDate>Mon, 10 Aug 2026 16:33:26 GMT</pubDate>
+	  <author>Dax</author>
+	  <description>dax (@thdxr) · post if you&apos;re an opencode user can you post a screenshot in the replies of your layout? SlowJoCrow (@slowjocrow1) · context I&apos;ve been reading V2 reviews and came across this &amp;quot;Until It stops converting every single source file it touches to UTF-8, it&apos;s not ...</description>
+	  <content:encoded><![CDATA[<p><strong>dax (@thdxr)</strong> · post</p>
+<p>if you're an opencode user can you post a screenshot in the replies of your layout?</p>
+<hr/>
+<p><strong>SlowJoCrow (@slowjocrow1)</strong> · context</p>
+<p>I've been reading V2 reviews and came across this</p>
+<br/>
+<p>&quot;Until It stops converting every single source file it touches to UTF-8, it's not possible for me to use it in production.&quot;</p>
+<br/>
+<p>Is that a real concern? Personally doesn't bother me but could be critical to some</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>where did you come across that comment?</p>
+<hr/>
+<p><strong>SlowJoCrow (@slowjocrow1)</strong> · context</p>
+<br/>
+<p><img src="https://pbs.twimg.com/card_img/2086852074516672513/0FmzL1c5?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>hm this is an issue in v1 and claude code as well so not new. will try to fix either way</p>
+<hr/>
+<p><strong>Playwo (@playwo_)</strong> · context</p>
+<p>Usually somewhere between 1 and 3 tabs.</p>
+<p>Each dockerized separately which performs kinda bad with V2 :/</p>
+<br/>
+<p>IDE on another monitor.</p>
+<p><img src="https://pbs.twimg.com/media/HPXz4EGX0AEEaUp?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>why performing bad with v2?</p>
+<hr/>
+<p><strong>Potato (@ivanfenenko)</strong> · context</p>
+<p>Lol. I have the one nobody else has  (for now)</p>
+<p><img src="https://pbs.twimg.com/media/HPX0AKjWEAArx4V?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>is this on v2 api?</p>
+<hr/>
+<p><strong>Rex Ho (@rex_ho999)</strong> · context</p>
+<p>I like the previous layout rather than the new</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>can you say more</p>
+<hr/>
+<p><strong>hanip (@hanipcode)</strong> · context</p>
+<p>I tried v2 but doesn't like the tab / session bar since I am using opencode in herdr</p>
+<p><img src="https://pbs.twimg.com/media/HPXsG6AaYAA1DWA?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>was it clear to you that you could turn it off?</p>
+<hr/>
+<p><strong>hanip (@hanipcode)</strong> · context</p>
+<p>how to disable/turn it off? I tried to ask GPT in opencode2 but no success. it says session-tabs already disabled but still showing for me even after restart</p>
+<p><img src="https://pbs.twimg.com/media/HPXwhItaYAAwwiG?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>Kit Langton (@kitlangton)</strong> · context</p>
+<p>hit ctrl-p then type &quot;tabs&quot;</p>
+<p><img src="https://pbs.twimg.com/media/HPXxKGvXcAAfPsk?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>hanip (@hanipcode)</strong> · context</p>
+<p>oh sorry, its dumb of me to not think of it, yeah works now. thanks, will try to use opencode v2 from now!</p>
+<hr/>
+<p><strong>hanip (@hanipcode)</strong> · context</p>
+<p>somehow my first instinct to configure things is just asking AI to do it now,  maybe I shouldn't have reach to AI for simple thing like this</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>we just talked about this earlier, we need to update our docs so that opencode could have answered you</p>
+<hr/>
+<p><strong>Matt Robinson (@mattrobrob)</strong> · context</p>
+<p>building a custom layout on the v2 api</p>
+<p><img src="https://pbs.twimg.com/media/HPXpKqxXMAEeWnd?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>nice!</p>
+<p><a href="https://x.com/thdxr/status/2086835025031430413">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/card_img/2086852074516672513/0FmzL1c5?format=jpg&amp;amp;name=large" type="application/octet-stream" length="0" />
+	  <media:content url="https://pbs.twimg.com/card_img/2086852074516672513/0FmzL1c5?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	  <media:content url="https://pbs.twimg.com/media/HPXz4EGX0AEEaUp?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	  <media:content url="https://pbs.twimg.com/media/HPX0AKjWEAArx4V?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	  <media:content url="https://pbs.twimg.com/media/HPXsG6AaYAA1DWA?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	  <media:content url="https://pbs.twimg.com/media/HPXwhItaYAAwwiG?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	  <media:content url="https://pbs.twimg.com/media/HPXxKGvXcAAfPsk?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	  <media:content url="https://pbs.twimg.com/media/HPXpKqxXMAEeWnd?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
+    <item>
+	  <title>Dax reply: yeah this is the same approach as mine - i was wondering what ssl issuer you used</title>
+	  <link>https://x.com/thdxr/status/2086846318127824982</link>
+	  <guid isPermaLink="false">71fe72b9ccb3a7cb9f2dd3ddbe073ec9708ee030</guid>
+	  <pubDate>Mon, 10 Aug 2026 16:05:08 GMT</pubDate>
+	  <author>Dax</author>
+	  <description>dax (@thdxr) · post it&apos;s not just http yeah this is gonna be very nice dax (@thdxr) · reply do you see the vision for this? do you see where we&apos;re going with this? arnav (@arnvbnsl) · context i was bored :P it&apos;s fairly rudimentary rn need to implementing multiplexing next dax ...</description>
+	  <content:encoded><![CDATA[<p><strong>dax (@thdxr)</strong> · post</p>
+<p>it's not just http</p>
+<p>yeah this is gonna be very nice</p>
+<p><img src="https://pbs.twimg.com/media/HPU_2a4XUAABPvF?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>do you see the vision for this? do you see where we're going with this?</p>
+<hr/>
+<p><strong>arnav (@arnvbnsl)</strong> · context</p>
+<p>i was bored :P it's fairly rudimentary rn need to implementing multiplexing next</p>
+<p><img src="https://pbs.twimg.com/media/HPXYU3na4AA2Bxi?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>how did you do the e2e part?</p>
+<hr/>
+<p><strong>arnav (@arnvbnsl)</strong> · context</p>
+<p>client/local agent generates the keypair and gets the cert, the private key never leaves the machine. the relay only forwards raw tcp and tls is terminated by the local agent itself</p>
+<br/>
+<p>though yes, you still do need to somewhat trust the relay to not issue another certificate and terminate TLS itself. ig using client owned domains w/ dns-01 could solve some of this?</p>
+<hr/>
+<p><strong>arnav (@arnvbnsl)</strong> · context</p>
+<p>could also set a CAA record with an accounturi whose private key is only on the end machine so the relay can't make a second certificate. but again, only completely trustworthy if the domain is owned by the client</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>yeah this is the same approach as mine - i was wondering what ssl issuer you used</p>
+<p><a href="https://x.com/thdxr/status/2086846318127824982">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/media/HPU_2a4XUAABPvF?format=jpg&amp;amp;name=large" type="application/octet-stream" length="0" />
+	  <media:content url="https://pbs.twimg.com/media/HPU_2a4XUAABPvF?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	  <media:content url="https://pbs.twimg.com/media/HPXYU3na4AA2Bxi?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
+    <item>
+	  <title>Dax: https://</title>
+	  <link>https://x.com/thdxr/status/2086816481543639197</link>
+	  <guid isPermaLink="false">ca0efa219e6854a63ae2f194b5cfa87141c09b2b</guid>
+	  <pubDate>Mon, 10 Aug 2026 14:06:35 GMT</pubDate>
+	  <author>Dax</author>
+	  <description>dax (@thdxr) · post running it back this friday dax (@thdxr) · reply https:// app.rebase.tv View on X</description>
+	  <content:encoded><![CDATA[<p><strong>dax (@thdxr)</strong> · post</p>
+<p>running it back this friday</p>
+<p><img src="https://pbs.twimg.com/amplify_video_thumb/2086816415634325504/img/lhUUSaQURltWXzM3.jpg" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>https://</p>
+<p>app.rebase.tv</p>
+<p><a href="https://x.com/thdxr/status/2086816481543639197">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/amplify_video_thumb/2086816415634325504/img/lhUUSaQURltWXzM3.jpg" type="video/mp4" length="0" />
+	  <media:content url="https://pbs.twimg.com/amplify_video_thumb/2086816415634325504/img/lhUUSaQURltWXzM3.jpg" type="video/mp4" medium="image" />
+	</item>
+    <item>
+	  <title>Dax reply: penis based last names</title>
+	  <link>https://x.com/thdxr/status/2086814865876824209</link>
+	  <guid isPermaLink="false">4d1bb31b6785d144e7a4be4031432d5f5cb6752e</guid>
+	  <pubDate>Mon, 10 Aug 2026 14:00:09 GMT</pubDate>
+	  <author>Dax</author>
+	  <description>andrew chen (@andrewchen) · original COMING SOON - a new a16z office launching in SF Want to guess the meeting room naming scheme? dax (@thdxr) · reply penis based last names View on X</description>
+	  <content:encoded><![CDATA[<p><strong>andrew chen (@andrewchen)</strong> · original</p>
+<p>COMING SOON - a new a16z office launching in SF</p>
+<br/>
+<p>Want to guess the meeting room naming scheme?</p>
+<p><img src="https://pbs.twimg.com/media/HPUcbsQaEAAJaeQ?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>penis based last names</p>
+<p><a href="https://x.com/thdxr/status/2086814865876824209">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/media/HPUcbsQaEAAJaeQ?format=jpg&amp;amp;name=large" type="application/octet-stream" length="0" />
+	  <media:content url="https://pbs.twimg.com/media/HPUcbsQaEAAJaeQ?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
+    <item>
 	  <title>Dax reply: yes</title>
 	  <link>https://x.com/thdxr/status/2086672088367047047</link>
 	  <guid isPermaLink="false">9529f4900cfe833ed5a6563ff96c35c56e12af03</guid>
@@ -279,6 +443,41 @@
 	  <media:content url="https://pbs.twimg.com/media/HPS2mNUaUAAIoaW?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
 	</item>
     <item>
+	  <title>Dax: i invented codemode</title>
+	  <link>https://x.com/thdxr/status/2086797820669886592</link>
+	  <guid isPermaLink="false">c6ed716364927baca670a46897229337848535d2</guid>
+	  <pubDate>Sun, 09 Aug 2026 16:19:17 GMT</pubDate>
+	  <author>Dax</author>
+	  <description>dax (@thdxr) · post i invented codemode View on X</description>
+	  <content:encoded><![CDATA[<p><strong>dax (@thdxr)</strong> · post</p>
+<p>i invented codemode</p>
+<p><img src="https://pbs.twimg.com/media/HPSwJ04aYAA5XzD?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<p><a href="https://x.com/thdxr/status/2086797820669886592">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/media/HPSwJ04aYAA5XzD?format=jpg&amp;amp;name=large" type="application/octet-stream" length="0" />
+	  <media:content url="https://pbs.twimg.com/media/HPSwJ04aYAA5XzD?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
+    <item>
+	  <title>Dax: you can try opencode2 now</title>
+	  <link>https://x.com/thdxr/status/2085865646705823778</link>
+	  <guid isPermaLink="false">11f36d4b5aa887e6a5317e1141cd805c9e19395e</guid>
+	  <pubDate>Fri, 07 Aug 2026 23:08:18 GMT</pubDate>
+	  <author>Dax</author>
+	  <description>dax (@thdxr) · post opencode2 has tool search and codemode built in this means it can handle infinite mcps, custom tools, apis, etc and it&apos;s the simplest implementation we&apos;ve seen dax (@thdxr) · reply you can try opencode2 now View on X</description>
+	  <content:encoded><![CDATA[<p><strong>dax (@thdxr)</strong> · post</p>
+<p>opencode2 has tool search and codemode built in</p>
+<br/>
+<p>this means it can handle infinite mcps, custom tools, apis, etc</p>
+<br/>
+<p>and it's the simplest implementation we've seen</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>you can try opencode2 now</p>
+<p><img src="https://pbs.twimg.com/card_img/2086038143904669696/2w3pPgd2?format=png&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<p><a href="https://x.com/thdxr/status/2085865646705823778">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/card_img/2086038143904669696/2w3pPgd2?format=png&amp;amp;name=large" type="application/octet-stream" length="0" />
+	  <media:content url="https://pbs.twimg.com/card_img/2086038143904669696/2w3pPgd2?format=png&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
+    <item>
 	  <title>Mitchell Hashimoto reply: GitHub security advisory for now</title>
 	  <link>https://x.com/mitchellh/status/2085197661599306206</link>
 	  <guid isPermaLink="false">d2e22bf67fa01a0c7c1d2a5ba8580d9ba6731ca7</guid>
@@ -492,6 +691,18 @@
 <p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
 <p>And fwiw, its not a &quot;failure.&quot; I shouldn't have used that word. It is genuinely hard, and I feel really bad, and you can't expect people to reliably do this. Its just hard to watch because these people are usually both really smart AND had a compelling vision before and you just wanted the best for them.</p>
 <p><a href="https://x.com/mitchellh/status/2084729934531178873">View on X</a></p>]]></content:encoded>
+	</item>
+    <item>
+	  <title>Dax: $54M and four months to go</title>
+	  <link>https://x.com/thdxr/status/2086675329653817841</link>
+	  <guid isPermaLink="false">476ced9f24c679872a97c34f651677375285404d</guid>
+	  <pubDate>Mon, 09 Mar 2026 22:05:29 GMT</pubDate>
+	  <author>Dax</author>
+	  <description>dax (@thdxr) · post $54M and four months to go will we make it? View on X</description>
+	  <content:encoded><![CDATA[<p><strong>dax (@thdxr)</strong> · post</p>
+<p>$54M and four months to go</p>
+<p>will we make it?</p>
+<p><a href="https://x.com/thdxr/status/2086675329653817841">View on X</a></p>]]></content:encoded>
 	</item>
   </channel>
 </rss>
