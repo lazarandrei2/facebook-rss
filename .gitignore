@@ -11,6 +11,8 @@
 *.db-journal
 *.db-wal
 *.db-shm
+/feed-runner.log
+/feed-runner.pid
 
 # Old Go binary
 /facebook-rss

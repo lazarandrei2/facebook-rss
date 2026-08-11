@@ -13,6 +13,10 @@
     "clean": "node --disable-warning=ExperimentalWarning bin/cli.js clean",
     "publish": "node --disable-warning=ExperimentalWarning bin/cli.js publish",
     "serve": "node --disable-warning=ExperimentalWarning bin/cli.js serve",
+    "watch": "./bin/run-loop.sh start",
+    "watch:logs": "./bin/run-loop.sh logs",
+    "watch:status": "./bin/run-loop.sh status",
+    "watch:stop": "./bin/run-loop.sh stop",
     "test": "node --disable-warning=ExperimentalWarning test/media.test.js && node --disable-warning=ExperimentalWarning test/twitter-thread.test.js && node --disable-warning=ExperimentalWarning test/config.test.js"
   },
   "engines": {
