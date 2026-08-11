@@ -1,13 +1,26 @@
 #!/usr/bin/env -S node --disable-warning=ExperimentalWarning
 
 import { writeFileSync } from "node:fs";
-import { loadConfig, requireAnyProfiles, requireProfiles } from "../lib/config.js";
+import {
+  loadConfig,
+  requireAnyProfiles,
+  requireProfiles,
+  resolveSourceKeys,
+  SOURCES,
+} from "../lib/config.js";
 import { openStore } from "../lib/store.js";
 import { Scraper } from "../lib/scraper.js";
 import { TwitterScraper } from "../lib/twitter-scraper.js";
 import { buildFeed } from "../lib/rssfeed.js";
 import { publishFeed } from "../lib/publish.js";
 import { startServer } from "../lib/server.js";
+
+const SCRAPERS = {
+  facebook: (cfg) =>
+    new Scraper({ headless: cfg.headless, maxPosts: cfg.maxPosts, source: cfg.facebook }),
+  twitter: (cfg) =>
+    new TwitterScraper({ headless: cfg.headless, maxPosts: cfg.maxPosts, source: cfg.twitter }),
+};
 
 function usage() {
   console.error(`Usage:
@@ -44,32 +57,13 @@ function parseArgs(argv) {
   return out;
 }
 
-function resolveSources(token, cfg) {
-  const t = (token || "all").toLowerCase();
-  if (t === "facebook" || t === "fb") return ["facebook"];
-  if (t === "twitter" || t === "x") return ["twitter"];
-  if (t === "all" || t === "both") {
-    const out = [];
-    if (cfg.facebook?.profiles?.length) out.push("facebook");
-    if (cfg.twitter?.profiles?.length) out.push("twitter");
-    // If neither configured yet, still allow explicit empty all for clean.
-    return out.length ? out : ["facebook", "twitter"];
-  }
-  return null;
-}
-
-function writeFacebookFeed(cfg, store) {
+function writeSourceFeed(cfg, key, store) {
+  const meta = SOURCES[key];
+  const source = cfg[key];
   const posts = store.list(50);
-  const body = buildFeed(cfg.facebook.feed, posts);
-  writeFileSync("facebook.xml", body, "utf8");
-  console.log("feeds: wrote facebook.xml");
-}
-
-function writeTwitterFeed(cfg, store) {
-  const posts = store.list(50);
-  const body = buildFeed(cfg.twitter.feed, posts);
-  writeFileSync("twitter.xml", body, "utf8");
-  console.log("feeds: wrote twitter.xml");
+  const body = buildFeed(source.feed, posts);
+  writeFileSync(meta.xmlFile, body, "utf8");
+  console.log(`feeds: wrote ${meta.xmlFile}`);
 }
 
 function writeEmptyFeed(feedCfg, path) {
@@ -77,82 +71,49 @@ function writeEmptyFeed(feedCfg, path) {
   writeFileSync(path, body, "utf8");
 }
 
-function facebookScraperConfig(cfg) {
-  return {
-    ...cfg,
-    sessionPath: cfg.facebook.sessionPath,
-    databasePath: cfg.facebook.databasePath,
-    feed: cfg.facebook.feed,
-    profiles: cfg.facebook.profiles,
-  };
-}
-
-async function fetchFacebook(cfg) {
-  requireProfiles(cfg, "facebook");
-  const store = openStore(cfg.facebook.databasePath);
+async function fetchSource(cfg, key) {
+  const meta = SOURCES[key];
+  requireProfiles(cfg, key);
+  const source = cfg[key];
+  const store = openStore(source.databasePath);
   try {
-    const posts = await new Scraper(facebookScraperConfig(cfg)).fetchLatest();
+    const posts = await SCRAPERS[key](cfg).fetchLatest();
     let added = 0;
     for (const p of posts) {
       const ok = store.upsert(p);
       if (ok) {
         added++;
-        console.log(`facebook-rss: new: ${p.title} (${p.url})`);
+        console.log(`${meta.logPrefix}: new: ${p.title} (${p.url})`);
       } else {
-        console.log(`facebook-rss: updated/skipped: ${p.title} (${p.url})`);
+        console.log(`${meta.logPrefix}: updated/skipped: ${p.title} (${p.url})`);
       }
     }
-    console.log(`facebook-rss: fetched ${posts.length} posts, ${added} new`);
-    writeFacebookFeed(cfg, store);
+    const unit = key === "twitter" ? "threads" : "posts";
+    console.log(`${meta.logPrefix}: fetched ${posts.length} ${unit}, ${added} new`);
+    writeSourceFeed(cfg, key, store);
   } finally {
     store.close();
   }
 }
 
-async function fetchTwitter(cfg) {
-  requireProfiles(cfg, "twitter");
-  const store = openStore(cfg.twitter.databasePath);
+async function cleanSource(cfg, key) {
+  const meta = SOURCES[key];
+  const source = cfg[key];
+  if (!source) return;
+  const store = openStore(source.databasePath);
   try {
-    const posts = await new TwitterScraper(cfg).fetchLatest();
-    let added = 0;
-    for (const p of posts) {
-      const ok = store.upsert(p);
-      if (ok) {
-        added++;
-        console.log(`twitter-rss: new: ${p.title} (${p.url})`);
-      } else {
-        console.log(`twitter-rss: updated/skipped: ${p.title} (${p.url})`);
-      }
-    }
-    console.log(`twitter-rss: fetched ${posts.length} threads, ${added} new`);
-    writeTwitterFeed(cfg, store);
+    store.clear();
+    writeSourceFeed(cfg, key, store);
+    console.log(`${meta.logPrefix}: cleared all posts and rewrote ${meta.xmlFile}`);
   } finally {
     store.close();
   }
 }
 
-async function cleanSource(cfg, source) {
-  if (source === "facebook") {
-    const store = openStore(cfg.facebook.databasePath);
-    try {
-      store.clear();
-      writeFacebookFeed(cfg, store);
-      console.log("facebook-rss: cleared all posts and rewrote facebook.xml");
-    } finally {
-      store.close();
-    }
-    return;
-  }
-  if (source === "twitter") {
-    const store = openStore(cfg.twitter.databasePath);
-    try {
-      store.clear();
-      writeTwitterFeed(cfg, store);
-      console.log("twitter-rss: cleared all posts and rewrote twitter.xml");
-    } finally {
-      store.close();
-    }
-  }
+function maybePush(doPush) {
+  if (!doPush) return;
+  publishFeed();
+  console.log("feeds: pushed xml to GitHub");
 }
 
 async function main() {
@@ -166,61 +127,48 @@ async function main() {
 
   switch (cmd) {
     case "login": {
-      const source = (args._[1] || "facebook").toLowerCase();
-      const cfg = loadConfig(args.config);
-      if (source === "twitter" || source === "x") {
-        await new TwitterScraper(cfg).login();
-      } else if (source === "facebook" || source === "fb") {
-        await new Scraper(facebookScraperConfig(cfg)).login();
-      } else {
-        console.error(`unknown login source: ${source} (use facebook or twitter)`);
+      const token = (args._[1] || "facebook").toLowerCase();
+      let key = null;
+      if (SOURCES.facebook.aliases.includes(token)) key = "facebook";
+      else if (SOURCES.twitter.aliases.includes(token)) key = "twitter";
+      if (!key) {
+        console.error(`unknown login source: ${token} (use facebook or twitter)`);
         process.exit(2);
       }
+      const cfg = loadConfig(args.config);
+      await SCRAPERS[key](cfg).login();
       break;
     }
     case "fetch": {
       const cfg = loadConfig(args.config);
-      const sources = resolveSources(args._[1], cfg);
+      const sources = resolveSourceKeys(args._[1], cfg);
       if (!sources) {
         console.error(`unknown fetch source: ${args._[1]} (use facebook, twitter, or all)`);
         process.exit(2);
       }
-      if (args._[1] && args._[1] !== "all") {
-        // explicit source
-      } else {
-        requireAnyProfiles(cfg);
+      const explicit = Boolean(args._[1] && args._[1] !== "all" && args._[1] !== "both");
+      if (!explicit) requireAnyProfiles(cfg);
+      for (const key of sources) {
+        await fetchSource(cfg, key);
       }
-      for (const source of sources) {
-        if (source === "facebook") await fetchFacebook(cfg);
-        else if (source === "twitter") await fetchTwitter(cfg);
-      }
-      if (args.push) {
-        publishFeed();
-        console.log("feeds: pushed xml to GitHub");
-      }
+      maybePush(args.push);
       break;
     }
     case "clean": {
       const cfg = loadConfig(args.config);
-      const sources = resolveSources(args._[1] || "all", cfg);
+      const sources = resolveSourceKeys(args._[1] || "all", cfg);
       if (!sources) {
         console.error(`unknown clean source: ${args._[1]}`);
         process.exit(2);
       }
-      for (const source of sources) {
-        await cleanSource(cfg, source);
+      for (const key of sources) {
+        await cleanSource(cfg, key);
+        // Ensure empty xml exists even when the source had no profiles yet.
+        if (!cfg[key]?.profiles?.length) {
+          writeEmptyFeed(cfg[key].feed, SOURCES[key].xmlFile);
+        }
       }
-      // Ensure empty files exist even if a source had no DB yet.
-      if (sources.includes("facebook") && !cfg.facebook?.profiles?.length) {
-        writeEmptyFeed(cfg.facebook.feed, "facebook.xml");
-      }
-      if (sources.includes("twitter")) {
-        // cleanSource already writes when DB opens; ensure file for empty config
-      }
-      if (args.push) {
-        publishFeed();
-        console.log("feeds: pushed xml to GitHub");
-      }
+      maybePush(args.push);
       break;
     }
     case "publish": {

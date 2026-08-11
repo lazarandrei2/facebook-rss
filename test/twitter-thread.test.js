@@ -4,10 +4,11 @@ import {
   groupAuthorThreads,
   linkReplyChain,
   normalizeHandle,
+  selectAuthorConversation,
   threadPermalink,
   threadPublishedAt,
 } from "../lib/twitter-thread.js";
-import { selectAuthorConversation, snowflakeToIso } from "../lib/twitter-scraper.js";
+import { snowflakeToIso } from "../lib/twitter-scraper.js";
 import { makeThreadTitle, renderThreadHTML } from "../lib/twitter-media.js";
 import { buildFeed } from "../lib/rssfeed.js";
 
