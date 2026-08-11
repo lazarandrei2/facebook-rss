@@ -6,9 +6,119 @@
 	<title>Twitter</title>
 	<link>https://lazarandrei2.github.io/facebook-rss/twitter.xml</link>
 	<description>Latest posts and author-involved reply threads from watched X profiles</description>
-	<pubDate>Tue, 11 Aug 2026 01:26:16 GMT</pubDate>
-	<lastBuildDate>Tue, 11 Aug 2026 12:18:22 GMT</lastBuildDate>
+	<pubDate>Tue, 11 Aug 2026 18:59:38 GMT</pubDate>
+	<lastBuildDate>Tue, 11 Aug 2026 19:28:24 GMT</lastBuildDate>
 		    <item>
+	  <title>Mitchell Hashimoto reply: She was talking mad shit about a nanny (whom she recently fired, one of many), then she complaine...</title>
+	  <link>https://x.com/mitchellh/status/2087247393675006410</link>
+	  <guid isPermaLink="false">df5bd63902e4d62f11d971336dd4b2081e9d2ff2</guid>
+	  <pubDate>Tue, 11 Aug 2026 18:59:38 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>Mitchell Hashimoto (@mitchellh) · post I live in a nice neighborhood. I will never understand how people that are so well off can be so cheap and mean to household employees. Especially those taking care of your kids and being in your house! Take care of people, folks. One of ...</description>
+	  <content:encoded><![CDATA[<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · post</p>
+<p>I live in a nice neighborhood. I will never understand how people that are so well off can be so cheap and mean to household employees. Especially those taking care of your kids and being in your house! Take care of people, folks.</p>
+<br/>
+<p>One of my neighbors called me a communist in the street because I said I provide healthcare and pay taxes (you know, don’t pay under the table).</p>
+<br/>
+<p>I took it as a compliment.</p>
+<hr/>
+<p><strong>Nathan Baschez (@nbaschez)</strong> · context</p>
+<p>that's orange county for you, lol</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Yeah I’m not in Orange County</p>
+<hr/>
+<p><strong>karl@ostendorf.com (@chicagokarl)</strong> · context</p>
+<p>How do you get into that kind of conversation with a neighbor?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>She was talking mad shit about a nanny (whom she recently fired, one of many), then she complained she was overpaid (she wasn't), and I basically had enough and was like, &quot;well, I pay my person &lt;x&gt; with healthcare&quot; and she was like just flabbergasted.</p>
+<p><a href="https://x.com/mitchellh/status/2087247393675006410">View on X</a></p>]]></content:encoded>
+	</item>
+    <item>
+	  <title>Mitchell Hashimoto reply: Yes:</title>
+	  <link>https://x.com/mitchellh/status/2087240485765337426</link>
+	  <guid isPermaLink="false">9c759180a1cadce27c735b85b2ce2ffb61447897</guid>
+	  <pubDate>Tue, 11 Aug 2026 18:45:00 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>Mitchell Hashimoto (@mitchellh) · post I’ve been asked for an updated daily schedule given Superlogical, second kid, and AI usage. Here you go: - 530 awake, 20 minute interval cardio - 600 review nightly agents, start new - 700 wake and feed newborn - 730 wake, dress toddler -...</description>
+	  <content:encoded><![CDATA[<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · post</p>
+<p>I’ve been asked for an updated daily schedule given Superlogical, second kid, and AI usage. Here you go:</p>
+<br/>
+<p>- 530 awake, 20 minute interval cardio</p>
+<p>- 600 review nightly agents, start new</p>
+<p>- 700 wake and feed newborn</p>
+<p>- 730 wake, dress toddler</p>
+<p>- 745 breakfast with family</p>
+<p>- 800 off to work</p>
+<p>- 1200 lunch (often with wife)</p>
+<p>- 1530 to 1945 family time</p>
+<p>- 2000 hang with wife, start new nightly agents</p>
+<br/>
+<p>Early 2026 I mentioned a goal of “always have an agent running” but admitted I was realistically only getting agents for a couple hours off work.</p>
+<br/>
+<p>As of today, I’ve gotten a LOT better, I regularly have at least 2 agents running constantly with many running through most of the night. I’ll cover this in more detail another time!</p>
+<hr/>
+<p><strong>Aleks Kin (@thealekskin)</strong> · context</p>
+<p>How do you manage to have it running all night or near that? Is it some kinda self-feeding loop with the final goal?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Yes to the latter.</p>
+<hr/>
+<p><strong>faizan khan (@faizan10114)</strong> · context</p>
+<p>when you run night-agents, what are they running on? which agents?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>A mix:</p>
+<p>- Research</p>
+<p>- Trial and error solving a fairly open ended task</p>
+<p>- Email triage and planning (no writing or sending)</p>
+<p>- Issue triage and bug fixing (no auto-push, but code writing, staged for review)</p>
+<p>- Judging the work I did the previous day, adversarial review</p>
+<hr/>
+<p><strong>Tanvir Raj (@tanvirraj)</strong> · context</p>
+<p>Hey Mitchell, thanks for writing this!</p>
+<p>Ive also 2 child</p>
+<br/>
+<p>I’m really curious to know more about how you write your prompts for the nightly agents and what kind of work they do .</p>
+<p>In my experience most agent tasks not tend to be pretty long may be one hour to 2/3 hours.</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>A mix:</p>
+<p>- Research</p>
+<p>- Trial and error solving a fairly open ended task</p>
+<p>- Email triage and planning (no writing or sending)</p>
+<p>- Issue triage and bug fixing (no auto-push, but code writing, staged for review)</p>
+<p>- Judging the work I did the previous day, adversarial review</p>
+<hr/>
+<p><strong>ezenwa (@turntupjason)</strong> · context</p>
+<p>how are you people reviewing code of these “many” agents?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Pretty much all I do.</p>
+<hr/>
+<p><strong>Liz Hurder (@valleyfaraday)</strong> · context</p>
+<p>the only thing unreasonable about this schedule is waking up the newborn at 7am.</p>
+<br/>
+<p>(mine was ready to rage at 6am)</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>So far we've produced two good sleepers. Crossing fingers as the newborn continues to grow. Toddler is a rock star.</p>
+<hr/>
+<p><strong>Axat (@axat_div)</strong> · context</p>
+<p>Thanks for sharing. As someone that just had a kid, I'm wondering if you outsource any stuff like childcare, cooking, etc. to nannies, chefs, etc. to get some time back? Or do you and your spouse manage all of it?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Yes:</p>
+<p>- Newborn has a nanny from 8 AM to 330 PM.</p>
+<p>- We have a full time housekeeper that does all cleaning, dishes, laundry, car washes, etc. Leaves at 3 PM.</p>
+<p>- We have 7 PM to 7 AM night nurses for the new born for now (until they sleep through the night, roughly 4 to 6 months)</p>
+<p>- We do most of our own cooking. Parents help some meals (not regularly scheduled, just spontaneously). We have a chef come one night per week for dinner.</p>
+<br/>
+<p>The goal with all this is that 330 PM to ~bedtime is private family time. Mornings the kids are usually out anyways.</p>
+<p><a href="https://x.com/mitchellh/status/2087240485765337426">View on X</a></p>]]></content:encoded>
+	</item>
+    <item>
 	  <title>Mitchell Hashimoto reply: Damn 10 yrs ago never wouldve believed someone who told me YT has higher quality comments but the...</title>
 	  <link>https://x.com/mitchellh/status/2086987530973671683</link>
 	  <guid isPermaLink="false">296be553038e669d8ce5a930032a080e93f02784</guid>
