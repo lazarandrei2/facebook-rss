@@ -6,9 +6,146 @@
 	<title>Twitter</title>
 	<link>https://lazarandrei2.github.io/facebook-rss/twitter.xml</link>
 	<description>Latest posts and author-involved reply threads from watched X profiles</description>
-	<pubDate>Mon, 10 Aug 2026 19:27:58 GMT</pubDate>
-	<lastBuildDate>Mon, 10 Aug 2026 19:51:17 GMT</lastBuildDate>
+	<pubDate>Tue, 11 Aug 2026 04:51:05 GMT</pubDate>
+	<lastBuildDate>Tue, 11 Aug 2026 05:06:35 GMT</lastBuildDate>
 		    <item>
+	  <title>Dax reply: they don&apos;t use any software i made</title>
+	  <link>https://x.com/thdxr/status/2087039074209079349</link>
+	  <guid isPermaLink="false">2e452cd00efbe42bdecb333098b6c95a554aa9a2</guid>
+	  <pubDate>Tue, 11 Aug 2026 04:51:05 GMT</pubDate>
+	  <author>Dax</author>
+	  <description>Darren Shepherd (@ibuildthecloud) · original i&apos;m working on a machine with 32gb ram, how do people live with only 32gb of ram. dax (@thdxr) · reply they don&apos;t use any software i made View on X</description>
+	  <content:encoded><![CDATA[<p><strong>Darren Shepherd (@ibuildthecloud)</strong> · original</p>
+<p>i'm working on a machine with 32gb ram, how do people live with only 32gb of ram.</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>they don't use any software i made</p>
+<p><a href="https://x.com/thdxr/status/2087039074209079349">View on X</a></p>]]></content:encoded>
+	</item>
+    <item>
+	  <title>Dax reply: i think it scales how it would before. what do you expect of someone leading a team working on th...</title>
+	  <link>https://x.com/thdxr/status/2087038709824733339</link>
+	  <guid isPermaLink="false">cde7a7231f5c4284489bde5512ef4e9c199a5aa6</guid>
+	  <pubDate>Tue, 11 Aug 2026 04:49:38 GMT</pubDate>
+	  <author>Dax</author>
+	  <description>dax (@thdxr) · post the focus on whether you read the code or not is the wrong thing to look at if you have software you&apos;re responsible for, you should be able to answer questions from memory about how it works the expectations for how well you can do this should not be any di...</description>
+	  <content:encoded><![CDATA[<p><strong>dax (@thdxr)</strong> · post</p>
+<p>the focus on whether you read the code or not is the wrong thing to look at</p>
+<br/>
+<p>if you have software you're responsible for, you should be able to answer questions from memory about how it works</p>
+<br/>
+<p>the expectations for how well you can do this should not be any different now</p>
+<hr/>
+<p><strong>Kent C. Dodds (@kentcdodds)</strong> · context</p>
+<p>I was just thinking about this actually. This is difficult to scale compared to times past. I now have a codebase I built solo starting in March that is 500k lines of code. I'm not done evolving it either (lines will be removed as I narrow down primitives, but more lines will be added as I increase features and add/expand primitives).</p>
+<br/>
+<p>I feel like I have a pretty good handle on how most things work, but a single dev having the whole system of a codebase like this available in memory feels like something we never would have expected of anyone before.</p>
+<br/>
+<p>It's just different now and I do believe you should understand the system-level changes that are being made as the software evolves, but are just able to build such large systems solo now I do think it's different.</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>i think it scales how it would before. what do you expect of someone leading a team working on this codebase</p>
+<p><a href="https://x.com/thdxr/status/2087038709824733339">View on X</a></p>]]></content:encoded>
+	</item>
+    <item>
+	  <title>Dax reply: no no now we switched it to the permanent one it&apos;s slightly different</title>
+	  <link>https://x.com/thdxr/status/2087032419610218964</link>
+	  <guid isPermaLink="false">53accfd5de47690983104458cf47c6afd435a084</guid>
+	  <pubDate>Tue, 11 Aug 2026 04:25:02 GMT</pubDate>
+	  <author>Dax</author>
+	  <description>dax (@thdxr) · post a fun one to make the &amp;quot;stop making the tui into a gui&amp;quot; people mad in the latest build of opencode2 you can turn on image previews dax (@thdxr) · reply Fareesh Vijayarangam (@fareesh) · context what is P(ur history will be wiped) rn dont want 2 try...</description>
+	  <content:encoded><![CDATA[<p><strong>dax (@thdxr)</strong> · post</p>
+<p>a fun one to make the &quot;stop making the tui into a gui&quot; people mad</p>
+<br/>
+<p>in the latest build of opencode2 you can turn on image previews</p>
+<p><img src="https://pbs.twimg.com/media/HPaRpY2XkAEY2jU?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<br/>
+<p><img src="https://pbs.twimg.com/card_img/2086038143904669696/2w3pPgd2?format=png&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>Fareesh Vijayarangam (@fareesh)</strong> · context</p>
+<p>what is P(ur history will be wiped) rn</p>
+<br/>
+<p>dont want 2 try till there's some stability there because i might like it and start using it for real stuff</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>we can't wipe it anymore we merged the dbs</p>
+<br/>
+<p>will update docs</p>
+<hr/>
+<p><strong>Safwan (@safwanyp_)</strong> · context</p>
+<p>so is the temporary logo becoming the permanent logo now</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>no no now we switched it to the permanent one it's slightly different</p>
+<p><a href="https://x.com/thdxr/status/2087032419610218964">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/media/HPaRpY2XkAEY2jU?format=jpg&amp;amp;name=large" type="application/octet-stream" length="0" />
+	  <media:content url="https://pbs.twimg.com/media/HPaRpY2XkAEY2jU?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	  <media:content url="https://pbs.twimg.com/card_img/2086038143904669696/2w3pPgd2?format=png&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
+    <item>
+	  <title>Dax reply: great now i&apos;m gonna die</title>
+	  <link>https://x.com/thdxr/status/2087032261141000288</link>
+	  <guid isPermaLink="false">e554d118dfd29b29b223c673466e4130dbd93115</guid>
+	  <pubDate>Tue, 11 Aug 2026 04:24:00 GMT</pubDate>
+	  <author>Dax</author>
+	  <description>dax (@thdxr) · post my team is reading my posts over the last hour and they think i&apos;m drunk but i really just took two advils Charlie Holtz (@charlieholtz) · context be careful https:// dynomight.substack.com/p/painkillers dax (@thdxr) · reply great now i&apos;m gonna die View on X</description>
+	  <content:encoded><![CDATA[<p><strong>dax (@thdxr)</strong> · post</p>
+<p>my team is reading my posts over the last hour and they think i'm drunk but i really just took two advils</p>
+<hr/>
+<p><strong>Charlie Holtz (@charlieholtz)</strong> · context</p>
+<p>be careful</p>
+<p>https://</p>
+<p>dynomight.substack.com/p/painkillers</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>great now i'm gonna die</p>
+<p><a href="https://x.com/thdxr/status/2087032261141000288">View on X</a></p>]]></content:encoded>
+	</item>
+    <item>
+	  <title>Dax: you think im kidding?</title>
+	  <link>https://x.com/thdxr/status/2087030026088640900</link>
+	  <guid isPermaLink="false">f89fef399adcea4216af1327bc94ea27d26edcff</guid>
+	  <pubDate>Tue, 11 Aug 2026 04:15:08 GMT</pubDate>
+	  <author>Dax</author>
+	  <description>dax (@thdxr) · post everyone is complaining about the corgi hires but why is no one complaining about all the hot dudes on our team dax (@thdxr) · reply you think im kidding? View on X</description>
+	  <content:encoded><![CDATA[<p><strong>dax (@thdxr)</strong> · post</p>
+<p>everyone is complaining about the corgi hires but why is no one complaining about all the hot dudes on our team</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · reply</p>
+<p>you think im kidding?</p>
+<p><img src="https://pbs.twimg.com/media/HM9JnCTW8AA7ac3?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<p><img src="https://pbs.twimg.com/media/HM9JnCSWYAANVVY?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<p><a href="https://x.com/thdxr/status/2087030026088640900">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/media/HM9JnCTW8AA7ac3?format=jpg&amp;amp;name=large" type="application/octet-stream" length="0" />
+	  <media:content url="https://pbs.twimg.com/media/HM9JnCTW8AA7ac3?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	  <media:content url="https://pbs.twimg.com/media/HM9JnCSWYAANVVY?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
+    <item>
+	  <title>Mitchell Hashimoto reply: Damn 10 yrs ago never wouldve believed someone who told me YT has higher quality comments but the...</title>
+	  <link>https://x.com/mitchellh/status/2086987530973671683</link>
+	  <guid isPermaLink="false">296be553038e669d8ce5a930032a080e93f02784</guid>
+	  <pubDate>Tue, 11 Aug 2026 01:26:16 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>ThePrimeagen (@theprimeagen) · original Hey @mitchellh I made a video about your SIMD article. You lamented about the reception of hacker news. Here is YTs reception. One of the better performers and it&apos;s good for the soul. Mitchell Hashimoto (@mitchellh) · reply Damn 10 yrs a...</description>
+	  <content:encoded><![CDATA[<p><strong>ThePrimeagen (@theprimeagen)</strong> · original</p>
+<p>Hey</p>
+<p>@mitchellh</p>
+<p>I made a video about your SIMD article. You lamented about the reception of hacker news. Here is YTs reception.</p>
+<br/>
+<p>One of the better performers and it's good for the soul.</p>
+<p><img src="https://pbs.twimg.com/media/HPXp_H7WkAEnPaC?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<p><img src="https://pbs.twimg.com/media/HPXqGj8WMAEsqwR?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Damn 10 yrs ago never wouldve believed someone who told me YT has higher quality comments but they legit are. Amazing. Thanks.</p>
+<p><a href="https://x.com/mitchellh/status/2086987530973671683">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/media/HPXp_H7WkAEnPaC?format=jpg&amp;amp;name=large" type="application/octet-stream" length="0" />
+	  <media:content url="https://pbs.twimg.com/media/HPXp_H7WkAEnPaC?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	  <media:content url="https://pbs.twimg.com/media/HPXqGj8WMAEsqwR?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
+    <item>
 	  <title>Dax reply: the opencode desktop beta channel is going to be upgraded to v2 today or tomorrow</title>
 	  <link>https://x.com/thdxr/status/2086897363470196963</link>
 	  <guid isPermaLink="false">046765677a00351fa576710120a81fc80fe387c8</guid>
