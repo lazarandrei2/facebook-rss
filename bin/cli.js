@@ -18,9 +18,9 @@ function usage() {
   node bin/cli.js clean  [facebook|twitter|all] [--config config.yaml] [--push]
       Delete stored posts and rewrite feed xml
   node bin/cli.js publish
-      Commit and push facebook.xml, twitter.xml (and legacy feed.xml)
+      Commit and push facebook.xml and twitter.xml
   node bin/cli.js serve  [--config config.yaml]
-      Serve GET /facebook.xml and /twitter.xml (legacy /feed.xml → facebook)
+      Serve GET /facebook.xml and /twitter.xml
 
 Typical cron (GitHub Pages):
   */15 * * * * cd /path/to/facebook-rss && node bin/cli.js fetch --push
@@ -62,9 +62,7 @@ function writeFacebookFeed(cfg, store) {
   const posts = store.list(50);
   const body = buildFeed(cfg.facebook.feed, posts);
   writeFileSync("facebook.xml", body, "utf8");
-  // Legacy alias for existing GitHub Pages / Tapestry subscribers.
-  writeFileSync("feed.xml", body, "utf8");
-  console.log("feeds: wrote facebook.xml (and feed.xml alias)");
+  console.log("feeds: wrote facebook.xml");
 }
 
 function writeTwitterFeed(cfg, store) {
@@ -215,7 +213,6 @@ async function main() {
       // Ensure empty files exist even if a source had no DB yet.
       if (sources.includes("facebook") && !cfg.facebook?.profiles?.length) {
         writeEmptyFeed(cfg.facebook.feed, "facebook.xml");
-        writeEmptyFeed(cfg.facebook.feed, "feed.xml");
       }
       if (sources.includes("twitter")) {
         // cleanSource already writes when DB opens; ensure file for empty config

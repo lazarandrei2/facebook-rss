@@ -16,7 +16,7 @@
 /facebook-rss
 /bin/facebook-rss
 
-# facebook.xml / twitter.xml / feed.xml are committed so GitHub Pages can serve them
+# facebook.xml / twitter.xml are committed so GitHub Pages can serve them
 
 # OS / editor
 .DS_Store
