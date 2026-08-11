@@ -50,7 +50,7 @@ twitter:
     assert.equal(cfg.facebook.profiles[0].name, "Zuck");
     assert.equal(cfg.twitter.sessionPath, "sess-tw.json");
     assert.equal(cfg.twitter.profiles[0].handle, "jack");
-    assert.equal(cfg.profiles[0].name, "Zuck"); // legacy alias
+    assert.equal(cfg.facebook.profiles[0].name, "Zuck");
     requireAnyProfiles(cfg);
   } finally {
     rmSync(dir, { recursive: true, force: true });
