@@ -195,7 +195,7 @@ async function main() {
         else if (source === "twitter") await fetchTwitter(cfg);
       }
       if (args.push) {
-        publishFeed("Update feeds");
+        publishFeed();
         console.log("feeds: pushed xml to GitHub");
       }
       break;
@@ -218,13 +218,13 @@ async function main() {
         // cleanSource already writes when DB opens; ensure file for empty config
       }
       if (args.push) {
-        publishFeed("Clear feeds");
+        publishFeed();
         console.log("feeds: pushed xml to GitHub");
       }
       break;
     }
     case "publish": {
-      publishFeed("Update feeds");
+      publishFeed();
       console.log("feeds: pushed xml to GitHub");
       break;
     }
