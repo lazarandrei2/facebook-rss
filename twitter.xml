@@ -6,8 +6,128 @@
 	<title>Twitter</title>
 	<link>https://lazarandrei2.github.io/facebook-rss/twitter.xml</link>
 	<description>Latest posts and author-involved reply threads from watched X profiles</description>
-	<pubDate>Tue, 11 Aug 2026 05:20:21 GMT</pubDate>
-	<lastBuildDate>Tue, 11 Aug 2026 05:20:21 GMT</lastBuildDate>
-		
+	<pubDate>Tue, 11 Aug 2026 01:26:16 GMT</pubDate>
+	<lastBuildDate>Tue, 11 Aug 2026 05:30:20 GMT</lastBuildDate>
+		    <item>
+	  <title>Mitchell Hashimoto reply: Damn 10 yrs ago never wouldve believed someone who told me YT has higher quality comments but the...</title>
+	  <link>https://x.com/mitchellh/status/2086987530973671683</link>
+	  <guid isPermaLink="false">296be553038e669d8ce5a930032a080e93f02784</guid>
+	  <pubDate>Tue, 11 Aug 2026 01:26:16 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>ThePrimeagen (@theprimeagen) · original Hey @mitchellh I made a video about your SIMD article. You lamented about the reception of hacker news. Here is YTs reception. One of the better performers and it&apos;s good for the soul. Mitchell Hashimoto (@mitchellh) · reply Damn 10 yrs a...</description>
+	  <content:encoded><![CDATA[<p><strong>ThePrimeagen (@theprimeagen)</strong> · original</p>
+<p>Hey</p>
+<p>@mitchellh</p>
+<p>I made a video about your SIMD article. You lamented about the reception of hacker news. Here is YTs reception.</p>
+<br/>
+<p>One of the better performers and it's good for the soul.</p>
+<p><img src="https://pbs.twimg.com/media/HPXp_H7WkAEnPaC?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<p><img src="https://pbs.twimg.com/media/HPXqGj8WMAEsqwR?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Damn 10 yrs ago never wouldve believed someone who told me YT has higher quality comments but they legit are. Amazing. Thanks.</p>
+<p><a href="https://x.com/mitchellh/status/2086987530973671683">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/media/HPXp_H7WkAEnPaC?format=jpg&amp;amp;name=large" type="application/octet-stream" length="0" />
+	  <media:content url="https://pbs.twimg.com/media/HPXp_H7WkAEnPaC?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	  <media:content url="https://pbs.twimg.com/media/HPXqGj8WMAEsqwR?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
+    <item>
+	  <title>Mitchell Hashimoto: Beautiful summer weekend with family and friends in Seattle.</title>
+	  <link>https://x.com/mitchellh/status/2086493299469406339</link>
+	  <guid isPermaLink="false">71deb4857866bc8cb2058a74f48b3065eb25fa34</guid>
+	  <pubDate>Sun, 09 Aug 2026 16:42:22 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>Mitchell Hashimoto (@mitchellh) · post Beautiful summer weekend with family and friends in Seattle. View on X</description>
+	  <content:encoded><![CDATA[<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · post</p>
+<p>Beautiful summer weekend with family and friends in Seattle.</p>
+<p><img src="https://pbs.twimg.com/media/HPS2mNUaUAAIoaW?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<p><a href="https://x.com/mitchellh/status/2086493299469406339">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/media/HPS2mNUaUAAIoaW?format=jpg&amp;amp;name=large" type="application/octet-stream" length="0" />
+	  <media:content url="https://pbs.twimg.com/media/HPS2mNUaUAAIoaW?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
+    <item>
+	  <title>Mitchell Hashimoto reply: GitHub security advisory for now</title>
+	  <link>https://x.com/mitchellh/status/2085197661599306206</link>
+	  <guid isPermaLink="false">d2e22bf67fa01a0c7c1d2a5ba8580d9ba6731ca7</guid>
+	  <pubDate>Thu, 06 Aug 2026 02:53:58 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>Stefan Esser (@i0n1c) · original Hey @mitchellh what is the correct way to contact you regarding GhostTTY security Mitchell Hashimoto (@mitchellh) · reply GitHub security advisory for now View on X</description>
+	  <content:encoded><![CDATA[<p><strong>Stefan Esser (@i0n1c)</strong> · original</p>
+<p>Hey</p>
+<p>@mitchellh</p>
+<p>what is the correct way to contact you regarding GhostTTY security</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>GitHub security advisory for now</p>
+<p><a href="https://x.com/mitchellh/status/2085197661599306206">View on X</a></p>]]></content:encoded>
+	</item>
+    <item>
+	  <title>Mitchell Hashimoto reply: All http/https is trusted since the preview is visible and browsers have their own security barri...</title>
+	  <link>https://x.com/mitchellh/status/2085129456193327383</link>
+	  <guid isPermaLink="false">7045a03972141c336d1e216cfb8b519cb0a905ce</guid>
+	  <pubDate>Wed, 05 Aug 2026 22:22:56 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>Mitchell Hashimoto (@mitchellh) · post OSC8 is the terminal sequence for linking arbitrary text (similar to `a` tags in HTML). It is mandatory for a modern terminal experience but prone to malicious use. The next version of Ghostty contains the strongest protections for malici...</description>
+	  <content:encoded><![CDATA[<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · post</p>
+<p>OSC8 is the terminal sequence for linking arbitrary text (similar to `a` tags in HTML). It is mandatory for a modern terminal experience but prone to malicious use. The next version of Ghostty contains the strongest protections for malicious OSC8 short of disabling it entirely.</p>
+<br/>
+<p>In the next version of Ghostty, we've added a classifier for OSC8 URLs (any hidden URL, really) that classifies a URL as: trusted, requires-confirmation, or deny. The screenshots below show the separate requires-confirmation and deny alerts.</p>
+<br/>
+<p>We also now show hidden characters in the URL preview in the bottom of the window (previously we interpreted the Unicode directly which allowed maliciously crafted URLs to hide themselves). Hidden characters immediately trigger the `deny` classification, too.</p>
+<br/>
+<p>These are the strongest, most comprehensive protections for OSC8 across terminals. As a comparison:</p>
+<br/>
+<p>* Alacritty, Kitty, iTerm2, WezTerm: enabled by default with zero filtering at all. Can directly open executables or maliciously crafted schemes without any filter. Can hide the real URL through Unicode tricks.</p>
+<br/>
+<p>* Gnome Terminal: enables all OSC8, no configuration I could find to disable. Only rejects remote-host `file://` URLs. No other sanitization, confirmation, etc.</p>
+<br/>
+<p>* VS Code Terminal: Allowlist of safe protocols, prompts for unknown, silently replaces whitespace characters. Very good!</p>
+<br/>
+<p>* Windows Terminal: Allowlist, prompts for anything executable, prompts for any custom schemes. Very good!</p>
+<p><img src="https://pbs.twimg.com/media/HO-f0GUbIAAWJom?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<p><img src="https://pbs.twimg.com/media/HO-f10NbsAAlkXC?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>Olivier Mengué (@omengue)</strong> · context</p>
+<p>I can't even imagine what URL could be marked as trusted except purely ASCII and exactly the same as the displayed text.</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>All http/https is trusted since the preview is visible and browsers have their own security barriers. Local files are trusted if they're non-executable and readable and advertise a text format. etc.</p>
+<p><a href="https://x.com/mitchellh/status/2085129456193327383">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/media/HO-f0GUbIAAWJom?format=jpg&amp;amp;name=large" type="application/octet-stream" length="0" />
+	  <media:content url="https://pbs.twimg.com/media/HO-f0GUbIAAWJom?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	  <media:content url="https://pbs.twimg.com/media/HO-f10NbsAAlkXC?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
+    <item>
+	  <title>Mitchell Hashimoto reply: Tmux itself doesn&apos;t so it can&apos;t unless they forked it. Ghostty supports unicode placeholders (the...</title>
+	  <link>https://x.com/mitchellh/status/2085051815746560013</link>
+	  <guid isPermaLink="false">dc8afc0307fd13b3a3d89dc919b8b694646ae2b9</guid>
+	  <pubDate>Wed, 05 Aug 2026 17:14:25 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>bitwise (@bitwise0x2a) · original I built Remux, a mobile-first tmux client for iPhone, powered by libghostty. It uses tmux control mode to bring remote sessions, windows, and panes into a native mobile UI. It&apos;s open source and now in beta. Thanks @mitchellh and the Ghostty co...</description>
+	  <content:encoded><![CDATA[<p><strong>bitwise (@bitwise0x2a)</strong> · original</p>
+<p>I built Remux, a mobile-first tmux client for iPhone, powered by libghostty.</p>
+<br/>
+<p>It uses tmux control mode to bring remote sessions, windows, and panes into a native mobile UI. It's open source and now in beta.</p>
+<br/>
+<p>Thanks</p>
+<p>@mitchellh</p>
+<p>and the Ghostty contributors for making this possible</p>
+<br/>
+<p>code:</p>
+<p>https://</p>
+<p>github.com/h3nock/remux</p>
+<p><img src="https://pbs.twimg.com/amplify_video_thumb/2084713351448322048/img/vRR_Ymi39-VwLIZs.jpg" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>Rob Pruzan (@robknight__)</strong> · context</p>
+<p>does it support the kitty graphics protocol?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Tmux itself doesn't so it can't unless they forked it. Ghostty supports unicode placeholders (the only terminal other than Kitty too) so compliant Kitty graphics producing applications can use that and it works.</p>
+<p><img src="https://pbs.twimg.com/card_img/2085024212839022592/ue2b87A0?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<p><a href="https://x.com/mitchellh/status/2085051815746560013">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/amplify_video_thumb/2084713351448322048/img/vRR_Ymi39-VwLIZs.jpg" type="video/mp4" length="0" />
+	  <media:content url="https://pbs.twimg.com/amplify_video_thumb/2084713351448322048/img/vRR_Ymi39-VwLIZs.jpg" type="video/mp4" medium="image" />
+	  <media:content url="https://pbs.twimg.com/card_img/2085024212839022592/ue2b87A0?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
   </channel>
 </rss>
