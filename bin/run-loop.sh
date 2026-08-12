@@ -22,6 +22,13 @@ log() {
   printf '[%s] %s\n' "$(stamp)" "$*" | tee -a "$LOG"
 }
 
+# Prefix each stdin line with the same stamp as log().
+stamp_stream() {
+  while IFS= read -r line || [[ -n "$line" ]]; do
+    printf '[%s] %s\n' "$(stamp)" "$line"
+  done
+}
+
 is_running() {
   [[ -f "$PIDFILE" ]] || return 1
   local pid
@@ -31,10 +38,16 @@ is_running() {
 
 run_once() {
   log "fetch --push starting"
-  if "$NODE" --disable-warning=ExperimentalWarning bin/cli.js fetch --push >>"$LOG" 2>&1; then
+  local status=0
+  set +e
+  "$NODE" --disable-warning=ExperimentalWarning bin/cli.js fetch --push 2>&1 \
+    | stamp_stream >>"$LOG"
+  status=${PIPESTATUS[0]}
+  set -e
+  if [[ $status -eq 0 ]]; then
     log "fetch --push ok"
   else
-    log "fetch --push failed (exit $?)"
+    log "fetch --push failed (exit $status)"
   fi
 }
 
