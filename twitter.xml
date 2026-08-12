@@ -6,9 +6,183 @@
 	<title>Twitter</title>
 	<link>https://lazarandrei2.github.io/facebook-rss/twitter.xml</link>
 	<description>Latest posts and author-involved reply threads from watched X profiles</description>
-	<pubDate>Wed, 12 Aug 2026 13:12:19 GMT</pubDate>
-	<lastBuildDate>Wed, 12 Aug 2026 13:47:38 GMT</lastBuildDate>
+	<pubDate>Wed, 12 Aug 2026 16:49:37 GMT</pubDate>
+	<lastBuildDate>Wed, 12 Aug 2026 16:54:34 GMT</lastBuildDate>
 		    <item>
+	  <title>Mitchell Hashimoto reply: We promised only product updates. And they will come. :) No timeline on the beta yet, but people ...</title>
+	  <link>https://x.com/mitchellh/status/2087582221301637561</link>
+	  <guid isPermaLink="false">e0f84ca071f50ac22e19e9abc356a9523e5dbf01</guid>
+	  <pubDate>Wed, 12 Aug 2026 16:49:37 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>Mitchell Hashimoto (@mitchellh) · post A form of Conway&apos;s law: high quality internal tools lead to high quality external tools. Here&apos;s Hector showing our internal dev tool we use to build our deck icon sets, including publishing the icons. Insaf (@insafdev) · context So these ...</description>
+	  <content:encoded><![CDATA[<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · post</p>
+<p>A form of Conway's law: high quality internal tools lead to high quality external tools. Here's Hector showing our internal dev tool we use to build our deck icon sets, including publishing the icons.</p>
+<p><img src="https://pbs.twimg.com/amplify_video_thumb/2087542104700452865/img/Tr_DJVJPA83D3bPy.jpg" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>Insaf (@insafdev)</strong> · context</p>
+<p>So these tool u created by yourself for this specific project right?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Yes</p>
+<hr/>
+<p><strong>Carl Lerche (@carllerche)</strong> · context</p>
+<p>Your email list is the one I signed up for hoping to get spammed, but haven't  when will I be able to play around with something?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>We promised only product updates. And they will come. :) No timeline on the beta yet, but people on the list will get access first. Its a &quot;when its ready&quot; type of thing, but we're hoping thats very soon.</p>
+<p><a href="https://x.com/mitchellh/status/2087582221301637561">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/amplify_video_thumb/2087542104700452865/img/Tr_DJVJPA83D3bPy.jpg" type="video/mp4" length="0" />
+	  <media:content url="https://pbs.twimg.com/amplify_video_thumb/2087542104700452865/img/Tr_DJVJPA83D3bPy.jpg" type="video/mp4" medium="image" />
+	</item>
+    <item>
+	  <title>Mitchell Hashimoto reply: Found it, we just reached out! Sorry, got lost in the pile :( :( :(</title>
+	  <link>https://x.com/mitchellh/status/2087577263584022649</link>
+	  <guid isPermaLink="false">cf926ad8d1f6b746698027598bdd66bf084e9e09</guid>
+	  <pubDate>Wed, 12 Aug 2026 16:29:39 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>Mitchell Hashimoto (@mitchellh) · post We&apos;re looking to hire Windows developers capable of producing UI at this quality (but, idiomatic to the Windows ecosystem, not cloning Apple). If you are one or know someone, please have them apply via `ssh http:// superlogical.jobs`. We&apos;...</description>
+	  <content:encoded><![CDATA[<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · post</p>
+<p>We're looking to hire Windows developers capable of producing UI at this quality (but, idiomatic to the Windows ecosystem, not cloning Apple). If you are one or know someone, please have them apply via `ssh</p>
+<p>http://</p>
+<p>superlogical.jobs`. We've been struggling to find this person.</p>
+<br/>
+<p>There's just a lot of Windows applications out there (like, almost all of them) that just aren't good. We're looking for someone who wants to create a Windows applications that sparks joy, excites people, and feels good. We want frame perfect animation. We want obsessive consideration over user flows, click counts, keyboard press counts, etc.</p>
+<br/>
+<p>We're a team that has that kind of obsession, but lacks the Windows experience. If you know a Windows dev who has this quality obsession and wants to work with a group that shares those ideals, I want to talk to them.</p>
+<p><img src="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>Gordon Cassie (@gordon_cassie)</strong> · context</p>
+<p>I sent someone great  your way but he hasn't heard anything.</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>I thought we reached out, let me double check. Sorry about that.</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Found it, we just reached out! Sorry, got lost in the pile :( :( :(</p>
+<p><a href="https://x.com/mitchellh/status/2087577263584022649">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" type="video/mp4" length="0" />
+	  <media:content url="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" type="video/mp4" medium="image" />
+	</item>
+    <item>
+	  <title>Mitchell Hashimoto reply: That little icon next to the tabs are sessions.</title>
+	  <link>https://x.com/mitchellh/status/2087545750242963815</link>
+	  <guid isPermaLink="false">edd9dbe482e7c8edeb99ce2aae5dd024e3085e55</guid>
+	  <pubDate>Wed, 12 Aug 2026 16:27:30 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>Mitchell Hashimoto (@mitchellh) · post Sharing some more UI previews for Superlogical, this time the &amp;quot;tab peek.&amp;quot; If you three-finger swipe down, you can &amp;quot;peek&amp;quot; at the other session tabs. These are live-updating, metal-rendered previews including splits. If ...</description>
+	  <content:encoded><![CDATA[<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · post</p>
+<p>Sharing some more UI previews for Superlogical, this time the &quot;tab peek.&quot; If you three-finger swipe down, you can &quot;peek&quot; at the other session tabs. These are live-updating, metal-rendered previews including splits. If you keep dragging, you enter a &quot;mission control&quot; style mode.</p>
+<br/>
+<p>This is one of those UI patterns that once you get used to, you mindlessly find yourself doing it ALL THE TIME. It's a great way to quickly take a look at everything thats going on. You aren't reading the mini text of course, but the shape of it tells you a lot about where things are.</p>
+<br/>
+<p>The peek pushes the terminal down off screen, it doesn't resize it, so it doesn't force any weird reflow or anything either.</p>
+<br/>
+<p>There's a lot more to talk about, especially about how this interacts with how we expose what needs attention so you can easily find the terminals/sessions/etc. that require your attention.</p>
+<br/>
+<p>Of course, you'll be able to drive this with the keyboard too. :)</p>
+<br/>
+<p>As always, a disclaimer: this is all early work subject to change, just trying to share some of what we're building in public. A lot of the UI experiential design is</p>
+<p>@almonk</p>
+<p>so follow him for more updates too!</p>
+<p><img src="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>Brendon Ghaderi (@br3ndong)</strong> · context</p>
+<p>Is this available for public use? Would love to help beta test</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Not yet</p>
+<hr/>
+<p><strong>vogel (@ryanvogel)</strong> · context</p>
+<p>is it only gonna be Mac</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>No, but the clients will be unapologetically designed for their platforms. Not every OS will support the same UI features. We want people to think it’s not cross platform cause it’s so damn good on each.</p>
+<br/>
+<p>Beta will be web plus Apple (macOS iOS) only for GUI. Server runs on Linux too but native GUI there to start. Windows we’re hiring for.</p>
+<hr/>
+<p><strong>roman (@nulladdict)</strong> · context</p>
+<p>any chance this will get rid of the native macos tabs that conflict with macos tiling managers?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Yes, that's fixed because this is a fully custom tab bar.</p>
+<hr/>
+<p><strong>Arihant (@arihantbansal)</strong> · context</p>
+<p>will the peek UI be updating real time? so I can see if agents have stopped working in another tab vs still ongoing?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Yes it does and you can already see it in this video</p>
+<hr/>
+<p><strong>nkxxll (@nkxxll)</strong> · context</p>
+<p>love this &lt;3 only thing I am missing are sessions. I find myself working on at least two projects at a time all the time and I want that all in one window.</p>
+<p>are there plans to make this session view better ;) (herdr btw.):</p>
+<p><img src="https://pbs.twimg.com/media/HPhynuzXkAE_63G?format=png&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>That little icon next to the tabs are sessions.</p>
+<p><a href="https://x.com/mitchellh/status/2087545750242963815">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" type="video/mp4" length="0" />
+	  <media:content url="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" type="video/mp4" medium="image" />
+	  <media:content url="https://pbs.twimg.com/media/HPhynuzXkAE_63G?format=png&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
+    <item>
+	  <title>Mitchell Hashimoto reply: This is just one small tiny UI demo.</title>
+	  <link>https://x.com/mitchellh/status/2087563082826744232</link>
+	  <guid isPermaLink="false">73ffcb044935938f973db9a163b4f38beed63ae8</guid>
+	  <pubDate>Wed, 12 Aug 2026 15:33:18 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>Outside Observer (@outsideobserver) · original Was this all the hype was about or am I missing something? Mitchell Hashimoto (@mitchellh) · reply This is just one small tiny UI demo. View on X</description>
+	  <content:encoded><![CDATA[<p><strong>Outside Observer (@outsideobserver)</strong> · original</p>
+<p>Was this all the hype was about or am I missing something?</p>
+<p><img src="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>This is just one small tiny UI demo.</p>
+<p><a href="https://x.com/mitchellh/status/2087563082826744232">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" type="video/mp4" length="0" />
+	  <media:content url="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" type="video/mp4" medium="image" />
+	</item>
+    <item>
+	  <title>Mitchell Hashimoto reply: Indeed, there will be many such cases. It’s like saying cars existed over 100 years ago and tryin...</title>
+	  <link>https://x.com/mitchellh/status/2087547842026217583</link>
+	  <guid isPermaLink="false">6fb90b719cce24cbb5fbe64f6e71c0c45638e2b1</guid>
+	  <pubDate>Wed, 12 Aug 2026 14:32:44 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>Threetrees (@melodyogonna) · original Nice. This actually exists in Tmux though not as intuitive as this. Mitchell Hashimoto (@mitchellh) · reply Indeed, there will be many such cases. It’s like saying cars existed over 100 years ago and trying to compare that to a modern Tesl...</description>
+	  <content:encoded><![CDATA[<p><strong>Threetrees (@melodyogonna)</strong> · original</p>
+<p>Nice.</p>
+<p>This actually exists in Tmux though not as intuitive as this.</p>
+<p><img src="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Indeed, there will be many such cases. It’s like saying cars existed over 100 years ago and trying to compare that to a modern Tesla.</p>
+<p><a href="https://x.com/mitchellh/status/2087547842026217583">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" type="video/mp4" length="0" />
+	  <media:content url="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" type="video/mp4" medium="image" />
+	</item>
+    <item>
+	  <title>Mitchell Hashimoto (reply)</title>
+	  <link>https://x.com/mitchellh/status/2087539626265477559</link>
+	  <guid isPermaLink="false">3c0ad0c68116822f4253a3e6feed25193e95f263</guid>
+	  <pubDate>Wed, 12 Aug 2026 14:00:06 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>almonk (@almonk) · original Here&apos;s a little video about how we&apos;re thinking about session and tab management in the @superlogical multiplexer and some of the GUI we&apos;re experimenting with to make it a productive and intuitive space for your work. We&apos;re designing the client from ...</description>
+	  <content:encoded><![CDATA[<p><strong>almonk (@almonk)</strong> · original</p>
+<p>Here's a little video about how we're thinking about session and tab management in the</p>
+<p>@superlogical</p>
+<p>multiplexer and some of the GUI we're experimenting with to make it a productive and intuitive space for your work.</p>
+<br/>
+<p>We're designing the client from the beginning to handle the modern terminal sprawl: local and remote sessions, long lived processes, agent harnesses, rich TUI apps, ephemeral processes, and everything in between.</p>
+<p><img src="https://pbs.twimg.com/amplify_video_thumb/2087532744238620672/img/Nz6eGsReXNuj3Gre.jpg" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<br/>
+<p><img src="https://pbs.twimg.com/media/HPhuOjmagAAua_W?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<p><a href="https://x.com/mitchellh/status/2087539626265477559">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/amplify_video_thumb/2087532744238620672/img/Nz6eGsReXNuj3Gre.jpg" type="video/mp4" length="0" />
+	  <media:content url="https://pbs.twimg.com/amplify_video_thumb/2087532744238620672/img/Nz6eGsReXNuj3Gre.jpg" type="video/mp4" medium="image" />
+	  <media:content url="https://pbs.twimg.com/media/HPhuOjmagAAua_W?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
+    <item>
 	  <title>Mitchell Hashimoto reply: Kids shifted me.</title>
 	  <link>https://x.com/mitchellh/status/2087527601363710448</link>
 	  <guid isPermaLink="false">9de0b8db605e5c3dd64484c8630f43a8b88980ce</guid>
@@ -331,6 +505,52 @@
 	  <media:content url="https://pbs.twimg.com/media/HPeaGb9XIAA04kl?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
 	</item>
     <item>
+	  <title>Mitchell Hashimoto reply: Once every couple months and obv those days this schedule doesn’t happen except the wake up the k...</title>
+	  <link>https://x.com/mitchellh/status/2087344368730660970</link>
+	  <guid isPermaLink="false">736b8d7ba8d517f61c35d82fcd39133f76852560</guid>
+	  <pubDate>Wed, 12 Aug 2026 03:47:15 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>Mitchell Hashimoto (@mitchellh) · post I’ve been asked for an updated daily schedule given Superlogical, second kid, and AI usage. Here you go: - 530 awake, 20 minute interval cardio - 600 review nightly agents, start new - 700 wake and feed newborn - 730 wake, dress toddler -...</description>
+	  <content:encoded><![CDATA[<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · post</p>
+<p>I’ve been asked for an updated daily schedule given Superlogical, second kid, and AI usage. Here you go:</p>
+<br/>
+<p>- 530 awake, 20 minute interval cardio</p>
+<p>- 600 review nightly agents, start new</p>
+<p>- 700 wake and feed newborn</p>
+<p>- 730 wake, dress toddler</p>
+<p>- 745 breakfast with family</p>
+<p>- 800 off to work</p>
+<p>- 1200 lunch (often with wife)</p>
+<p>- 1530 to 1945 family time</p>
+<p>- 2000 hang with wife, start new nightly agents</p>
+<br/>
+<p>Early 2026 I mentioned a goal of “always have an agent running” but admitted I was realistically only getting agents for a couple hours off work.</p>
+<br/>
+<p>As of today, I’ve gotten a LOT better, I regularly have at least 2 agents running constantly with many running through most of the night. I’ll cover this in more detail another time!</p>
+<hr/>
+<p><strong>Richard Hwang (@rhwang201)</strong> · context</p>
+<p>This is great, you've inspired me to block off more dedicated time with my newborn. I'd love to have agents running constantly, but I struggle not being in the loop, maybe because I'm mostly doing product dev or maybe skill issue. Looking forward to more details there.</p>
+<hr/>
+<p><strong>Richard Hwang (@rhwang201)</strong> · context</p>
+<p>Also: I'm usually very in-the-loop at my desk, and I work until I really need a break. So I find midday/late evening, I'm not sharp enough to deliver a strong spec for long tasks.</p>
+<br/>
+<p>Again, maybe skill issue, and I should leave more in the tank to send off those long running tasks?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Yes, I had to change my schedule so that I ended my in-the-loop day ~30 minutes earlier so I can spend the last 30 minutes just working on prompts for my nightly tasks.</p>
+<br/>
+<p>Note it took me some time to build out those agents, since they're agents in a loop so that they can remain running longer.</p>
+<hr/>
+<p><strong>katnoria (@katnoria1)</strong> · context</p>
+<p>Time is the ultimate currency and you seem to be spending it very well.</p>
+<br/>
+<p>With the above schedule, you don’t fly to SF anymore? Or is it once a week?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Once every couple months and obv those days this schedule doesn’t happen except the wake up the kids and breakfast part</p>
+<p><a href="https://x.com/mitchellh/status/2087344368730660970">View on X</a></p>]]></content:encoded>
+	</item>
+    <item>
 	  <title>Mitchell Hashimoto reply: They don&apos;t. This same parent had her kid expelled from a school for being a bully and its not sur...</title>
 	  <link>https://x.com/mitchellh/status/2087306016174272665</link>
 	  <guid isPermaLink="false">37640adda7e98c71284a5930222174441d9ab845</guid>
@@ -447,6 +667,37 @@
 <p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
 <p>She was talking mad shit about a nanny (whom she recently fired, one of many), then she complained she was overpaid (she wasn't), and I basically had enough and was like, &quot;well, I pay my person &lt;x&gt; with healthcare&quot; and she was like just flabbergasted.</p>
 <p><a href="https://x.com/mitchellh/status/2087247393675006410">View on X</a></p>]]></content:encoded>
+	</item>
+    <item>
+	  <title>Mitchell Hashimoto reply: Use an agency that has a high minimum hourly cost (for the hired employee). The quality/education...</title>
+	  <link>https://x.com/mitchellh/status/2087376793703784912</link>
+	  <guid isPermaLink="false">e32e132c2c4e9dbf9f4c7d142d4176c9901f2b08</guid>
+	  <pubDate>Wed, 12 Aug 2026 03:13:03 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>Mitchell Hashimoto (@mitchellh) · post I live in a nice neighborhood. I will never understand how people that are so well off can be so cheap and mean to household employees. Especially those taking care of your kids and being in your house! Take care of people, folks. One of ...</description>
+	  <content:encoded><![CDATA[<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · post</p>
+<p>I live in a nice neighborhood. I will never understand how people that are so well off can be so cheap and mean to household employees. Especially those taking care of your kids and being in your house! Take care of people, folks.</p>
+<br/>
+<p>One of my neighbors called me a communist in the street because I said I provide healthcare and pay taxes (you know, don’t pay under the table).</p>
+<br/>
+<p>I took it as a compliment.</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · context</p>
+<p>it's crazy my wife is in a chat with other people in the neighborhood and they have insane relationships with their nanny</p>
+<br/>
+<p>it's hyper optimized to extract every dollar they can save (meaningless amounts to them)</p>
+<br/>
+<p>why would you want to have such a strained relationship with people watching your children</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>same, hard same, i get a ton of dirt from my wife in similar group chats/communities.</p>
+<hr/>
+<p><strong>Scott (@literalblocks)</strong> · context</p>
+<p>Any tips on how to find a good nanny?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Use an agency that has a high minimum hourly cost (for the hired employee). The quality/education/experience difference between a $25/hour, $35/hour, $50/hour, and $60/hour nanny is MASSIVE.</p>
+<p><a href="https://x.com/mitchellh/status/2087376793703784912">View on X</a></p>]]></content:encoded>
 	</item>
     <item>
 	  <title>Mitchell Hashimoto reply: This is funny</title>
