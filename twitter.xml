@@ -6,13 +6,13 @@
 	<title>Twitter</title>
 	<link>https://lazarandrei2.github.io/facebook-rss/twitter.xml</link>
 	<description>Latest posts and author-involved reply threads from watched X profiles</description>
-	<pubDate>Wed, 12 Aug 2026 01:04:13 GMT</pubDate>
-	<lastBuildDate>Wed, 12 Aug 2026 02:12:43 GMT</lastBuildDate>
+	<pubDate>Wed, 12 Aug 2026 03:47:15 GMT</pubDate>
+	<lastBuildDate>Wed, 12 Aug 2026 04:25:46 GMT</lastBuildDate>
 		    <item>
 	  <title>Mitchell Hashimoto reply: 9 to 930.</title>
 	  <link>https://x.com/mitchellh/status/2087307972850675856</link>
 	  <guid isPermaLink="false">44daaff811c64c853793876c1a4627a11eede524</guid>
-	  <pubDate>Wed, 12 Aug 2026 01:04:13 GMT</pubDate>
+	  <pubDate>Wed, 12 Aug 2026 03:47:15 GMT</pubDate>
 	  <author>Mitchell Hashimoto</author>
 	  <description>Mitchell Hashimoto (@mitchellh) · post I’ve been asked for an updated daily schedule given Superlogical, second kid, and AI usage. Here you go: - 530 awake, 20 minute interval cardio - 600 review nightly agents, start new - 700 wake and feed newborn - 730 wake, dress toddler -...</description>
 	  <content:encoded><![CDATA[<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · post</p>
@@ -31,6 +31,19 @@
 <p>Early 2026 I mentioned a goal of “always have an agent running” but admitted I was realistically only getting agents for a couple hours off work.</p>
 <br/>
 <p>As of today, I’ve gotten a LOT better, I regularly have at least 2 agents running constantly with many running through most of the night. I’ll cover this in more detail another time!</p>
+<hr/>
+<p><strong>Richard Hwang (@rhwang201)</strong> · context</p>
+<p>This is great, you've inspired me to block off more dedicated time with my newborn. I'd love to have agents running constantly, but I struggle not being in the loop, maybe because I'm mostly doing product dev or maybe skill issue. Looking forward to more details there.</p>
+<hr/>
+<p><strong>Richard Hwang (@rhwang201)</strong> · context</p>
+<p>Also: I'm usually very in-the-loop at my desk, and I work until I really need a break. So I find midday/late evening, I'm not sharp enough to deliver a strong spec for long tasks.</p>
+<br/>
+<p>Again, maybe skill issue, and I should leave more in the tank to send off those long running tasks?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Yes, I had to change my schedule so that I ended my in-the-loop day ~30 minutes earlier so I can spend the last 30 minutes just working on prompts for my nightly tasks.</p>
+<br/>
+<p>Note it took me some time to build out those agents, since they're agents in a loop so that they can remain running longer.</p>
 <hr/>
 <p><strong>katnoria (@katnoria1)</strong> · context</p>
 <p>Time is the ultimate currency and you seem to be spending it very well.</p>
@@ -135,7 +148,7 @@
 	  <title>Mitchell Hashimoto reply: They don&apos;t. This same parent had her kid expelled from a school for being a bully and its not sur...</title>
 	  <link>https://x.com/mitchellh/status/2087306016174272665</link>
 	  <guid isPermaLink="false">37640adda7e98c71284a5930222174441d9ab845</guid>
-	  <pubDate>Tue, 11 Aug 2026 23:33:14 GMT</pubDate>
+	  <pubDate>Wed, 12 Aug 2026 03:13:03 GMT</pubDate>
 	  <author>Mitchell Hashimoto</author>
 	  <description>Mitchell Hashimoto (@mitchellh) · post I live in a nice neighborhood. I will never understand how people that are so well off can be so cheap and mean to household employees. Especially those taking care of your kids and being in your house! Take care of people, folks. One of ...</description>
 	  <content:encoded><![CDATA[<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · post</p>
@@ -144,6 +157,22 @@
 <p>One of my neighbors called me a communist in the street because I said I provide healthcare and pay taxes (you know, don’t pay under the table).</p>
 <br/>
 <p>I took it as a compliment.</p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · context</p>
+<p>it's crazy my wife is in a chat with other people in the neighborhood and they have insane relationships with their nanny</p>
+<br/>
+<p>it's hyper optimized to extract every dollar they can save (meaningless amounts to them)</p>
+<br/>
+<p>why would you want to have such a strained relationship with people watching your children</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>same, hard same, i get a ton of dirt from my wife in similar group chats/communities.</p>
+<hr/>
+<p><strong>Scott (@literalblocks)</strong> · context</p>
+<p>Any tips on how to find a good nanny?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Use an agency that has a high minimum hourly cost (for the hired employee). The quality/education/experience difference between a $25/hour, $35/hour, $50/hour, and $60/hour nanny is MASSIVE.</p>
 <hr/>
 <p><strong>Dan Goldin (@dangoldin)</strong> · context</p>
 <p>Earned vs inherited wealth?</p>
@@ -156,16 +185,6 @@
 <hr/>
 <p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
 <p>You still in the same city as me? Lmao</p>
-<hr/>
-<p><strong>dax (@thdxr)</strong> · context</p>
-<p>it's crazy my wife is in a chat with other people in the neighborhood and they have insane relationships with their nanny</p>
-<br/>
-<p>it's hyper optimized to extract every dollar they can save (meaningless amounts to them)</p>
-<br/>
-<p>why would you want to have such a strained relationship with people watching your children</p>
-<hr/>
-<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
-<p>same, hard same, i get a ton of dirt from my wife in similar group chats/communities.</p>
 <hr/>
 <p><strong>Darragh Grealish (@grealish)</strong> · context</p>
 <p>Poor kids, they are probably lucky to have a nanny to shield them from such dramas,</p>
