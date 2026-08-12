@@ -6,18 +6,122 @@
 	<title>Twitter</title>
 	<link>https://lazarandrei2.github.io/facebook-rss/twitter.xml</link>
 	<description>Latest posts and author-involved reply threads from watched X profiles</description>
-	<pubDate>Wed, 12 Aug 2026 16:49:37 GMT</pubDate>
-	<lastBuildDate>Wed, 12 Aug 2026 16:54:34 GMT</lastBuildDate>
+	<pubDate>Wed, 12 Aug 2026 19:25:27 GMT</pubDate>
+	<lastBuildDate>Wed, 12 Aug 2026 20:01:24 GMT</lastBuildDate>
 		    <item>
+	  <title>Mitchell Hashimoto reply: That little icon next to the tabs are sessions.</title>
+	  <link>https://x.com/mitchellh/status/2087545750242963815</link>
+	  <guid isPermaLink="false">edd9dbe482e7c8edeb99ce2aae5dd024e3085e55</guid>
+	  <pubDate>Wed, 12 Aug 2026 19:25:27 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>Mitchell Hashimoto (@mitchellh) · post Sharing some more UI previews for Superlogical, this time the &amp;quot;tab peek.&amp;quot; If you three-finger swipe down, you can &amp;quot;peek&amp;quot; at the other session tabs. These are live-updating, metal-rendered previews including splits. If ...</description>
+	  <content:encoded><![CDATA[<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · post</p>
+<p>Sharing some more UI previews for Superlogical, this time the &quot;tab peek.&quot; If you three-finger swipe down, you can &quot;peek&quot; at the other session tabs. These are live-updating, metal-rendered previews including splits. If you keep dragging, you enter a &quot;mission control&quot; style mode.</p>
+<br/>
+<p>This is one of those UI patterns that once you get used to, you mindlessly find yourself doing it ALL THE TIME. It's a great way to quickly take a look at everything thats going on. You aren't reading the mini text of course, but the shape of it tells you a lot about where things are.</p>
+<br/>
+<p>The peek pushes the terminal down off screen, it doesn't resize it, so it doesn't force any weird reflow or anything either.</p>
+<br/>
+<p>There's a lot more to talk about, especially about how this interacts with how we expose what needs attention so you can easily find the terminals/sessions/etc. that require your attention.</p>
+<br/>
+<p>Of course, you'll be able to drive this with the keyboard too. :)</p>
+<br/>
+<p>As always, a disclaimer: this is all early work subject to change, just trying to share some of what we're building in public. A lot of the UI experiential design is</p>
+<p>@almonk</p>
+<p>so follow him for more updates too!</p>
+<p><img src="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>NatSock (@mynatsockacct)</strong> · context</p>
+<p>waaahhh i can't remember what my sessions do without 4 minutes of animated cutscenes applied to my tabs</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>We respect the macOS settings to limit animation (we disable it).</p>
+<hr/>
+<p><strong>paperbenni (@paperbenni)</strong> · context</p>
+<p>I thought this was supposed to be a multiplexer? That looks like fancy ghostty. Can I close the window and the sessions keep active?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>The best multiplexer in the world is going to be the one that makes you forget it exists. Everything you see here is a remote terminal. The little icon to the left of the tabs is a list of sessions. When you restart it restores. You can join from another comptuer. You can even join from your phone.</p>
+<hr/>
+<p><strong>Brendon Ghaderi (@br3ndong)</strong> · context</p>
+<p>Is this available for public use? Would love to help beta test</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Not yet</p>
+<hr/>
+<p><strong>vogel (@ryanvogel)</strong> · context</p>
+<p>is it only gonna be Mac</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>No, but the clients will be unapologetically designed for their platforms. Not every OS will support the same UI features. We want people to think it’s not cross platform cause it’s so damn good on each.</p>
+<br/>
+<p>Beta will be web plus Apple (macOS iOS) only for GUI. Server runs on Linux too but native GUI there to start. Windows we’re hiring for.</p>
+<hr/>
+<p><strong>roman (@nulladdict)</strong> · context</p>
+<p>any chance this will get rid of the native macos tabs that conflict with macos tiling managers?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Yes, that's fixed because this is a fully custom tab bar.</p>
+<hr/>
+<p><strong>Arihant (@arihantbansal)</strong> · context</p>
+<p>will the peek UI be updating real time? so I can see if agents have stopped working in another tab vs still ongoing?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Yes it does and you can already see it in this video</p>
+<hr/>
+<p><strong>nkxxll (@nkxxll)</strong> · context</p>
+<p>love this &lt;3 only thing I am missing are sessions. I find myself working on at least two projects at a time all the time and I want that all in one window.</p>
+<p>are there plans to make this session view better ;) (herdr btw.):</p>
+<p><img src="https://pbs.twimg.com/media/HPhynuzXkAE_63G?format=png&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>That little icon next to the tabs are sessions.</p>
+<p><a href="https://x.com/mitchellh/status/2087545750242963815">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" type="video/mp4" length="0" />
+	  <media:content url="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" type="video/mp4" medium="image" />
+	  <media:content url="https://pbs.twimg.com/media/HPhynuzXkAE_63G?format=png&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
+    <item>
+	  <title>Mitchell Hashimoto reply: There are other ways to trigger it haha.</title>
+	  <link>https://x.com/mitchellh/status/2087621396839162349</link>
+	  <guid isPermaLink="false">6dd3b09ab52a8a7554705813b0bce87a4d5ecd1b</guid>
+	  <pubDate>Wed, 12 Aug 2026 19:25:01 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>David Cramer (@zeeg) · original three finger swipe? anti trackpad club unite Mitchell Hashimoto (@mitchellh) · reply There are other ways to trigger it haha. View on X</description>
+	  <content:encoded><![CDATA[<p><strong>David Cramer (@zeeg)</strong> · original</p>
+<p>three finger swipe?</p>
+<br/>
+<p>anti trackpad club unite</p>
+<p><img src="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>There are other ways to trigger it haha.</p>
+<p><a href="https://x.com/mitchellh/status/2087621396839162349">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" type="video/mp4" length="0" />
+	  <media:content url="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" type="video/mp4" medium="image" />
+	</item>
+    <item>
 	  <title>Mitchell Hashimoto reply: We promised only product updates. And they will come. :) No timeline on the beta yet, but people ...</title>
 	  <link>https://x.com/mitchellh/status/2087582221301637561</link>
 	  <guid isPermaLink="false">e0f84ca071f50ac22e19e9abc356a9523e5dbf01</guid>
-	  <pubDate>Wed, 12 Aug 2026 16:49:37 GMT</pubDate>
+	  <pubDate>Wed, 12 Aug 2026 18:40:37 GMT</pubDate>
 	  <author>Mitchell Hashimoto</author>
-	  <description>Mitchell Hashimoto (@mitchellh) · post A form of Conway&apos;s law: high quality internal tools lead to high quality external tools. Here&apos;s Hector showing our internal dev tool we use to build our deck icon sets, including publishing the icons. Insaf (@insafdev) · context So these ...</description>
+	  <description>Mitchell Hashimoto (@mitchellh) · post A form of Conway&apos;s law: high quality internal tools lead to high quality external tools. Here&apos;s Hector showing our internal dev tool we use to build our deck icon sets, including publishing the icons. Pat Lown (@patlown) · context For int...</description>
 	  <content:encoded><![CDATA[<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · post</p>
 <p>A form of Conway's law: high quality internal tools lead to high quality external tools. Here's Hector showing our internal dev tool we use to build our deck icon sets, including publishing the icons.</p>
 <p><img src="https://pbs.twimg.com/amplify_video_thumb/2087542104700452865/img/Tr_DJVJPA83D3bPy.jpg" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>Pat Lown (@patlown)</strong> · context</p>
+<p>For internal tools like this, is the amount of code review/ vibe code different from your planned external releases?  Are you optimizing on vibing a useful internal tool quickly?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Exactly.</p>
+<hr/>
+<p><strong>x509 (@x509dot)</strong> · context</p>
+<p>Who cares about stupid icons lmao. What are you trying to prove here?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>I care a lot about icons. If you don't, that's okay, just ignore me.</p>
 <hr/>
 <p><strong>Insaf (@insafdev)</strong> · context</p>
 <p>So these tool u created by yourself for this specific project right?</p>
@@ -62,67 +166,6 @@
 <p><a href="https://x.com/mitchellh/status/2087577263584022649">View on X</a></p>]]></content:encoded>
 	  <enclosure url="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" type="video/mp4" length="0" />
 	  <media:content url="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" type="video/mp4" medium="image" />
-	</item>
-    <item>
-	  <title>Mitchell Hashimoto reply: That little icon next to the tabs are sessions.</title>
-	  <link>https://x.com/mitchellh/status/2087545750242963815</link>
-	  <guid isPermaLink="false">edd9dbe482e7c8edeb99ce2aae5dd024e3085e55</guid>
-	  <pubDate>Wed, 12 Aug 2026 16:27:30 GMT</pubDate>
-	  <author>Mitchell Hashimoto</author>
-	  <description>Mitchell Hashimoto (@mitchellh) · post Sharing some more UI previews for Superlogical, this time the &amp;quot;tab peek.&amp;quot; If you three-finger swipe down, you can &amp;quot;peek&amp;quot; at the other session tabs. These are live-updating, metal-rendered previews including splits. If ...</description>
-	  <content:encoded><![CDATA[<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · post</p>
-<p>Sharing some more UI previews for Superlogical, this time the &quot;tab peek.&quot; If you three-finger swipe down, you can &quot;peek&quot; at the other session tabs. These are live-updating, metal-rendered previews including splits. If you keep dragging, you enter a &quot;mission control&quot; style mode.</p>
-<br/>
-<p>This is one of those UI patterns that once you get used to, you mindlessly find yourself doing it ALL THE TIME. It's a great way to quickly take a look at everything thats going on. You aren't reading the mini text of course, but the shape of it tells you a lot about where things are.</p>
-<br/>
-<p>The peek pushes the terminal down off screen, it doesn't resize it, so it doesn't force any weird reflow or anything either.</p>
-<br/>
-<p>There's a lot more to talk about, especially about how this interacts with how we expose what needs attention so you can easily find the terminals/sessions/etc. that require your attention.</p>
-<br/>
-<p>Of course, you'll be able to drive this with the keyboard too. :)</p>
-<br/>
-<p>As always, a disclaimer: this is all early work subject to change, just trying to share some of what we're building in public. A lot of the UI experiential design is</p>
-<p>@almonk</p>
-<p>so follow him for more updates too!</p>
-<p><img src="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" alt="" style="max-width:100%;height:auto" /></p>
-<hr/>
-<p><strong>Brendon Ghaderi (@br3ndong)</strong> · context</p>
-<p>Is this available for public use? Would love to help beta test</p>
-<hr/>
-<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
-<p>Not yet</p>
-<hr/>
-<p><strong>vogel (@ryanvogel)</strong> · context</p>
-<p>is it only gonna be Mac</p>
-<hr/>
-<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
-<p>No, but the clients will be unapologetically designed for their platforms. Not every OS will support the same UI features. We want people to think it’s not cross platform cause it’s so damn good on each.</p>
-<br/>
-<p>Beta will be web plus Apple (macOS iOS) only for GUI. Server runs on Linux too but native GUI there to start. Windows we’re hiring for.</p>
-<hr/>
-<p><strong>roman (@nulladdict)</strong> · context</p>
-<p>any chance this will get rid of the native macos tabs that conflict with macos tiling managers?</p>
-<hr/>
-<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
-<p>Yes, that's fixed because this is a fully custom tab bar.</p>
-<hr/>
-<p><strong>Arihant (@arihantbansal)</strong> · context</p>
-<p>will the peek UI be updating real time? so I can see if agents have stopped working in another tab vs still ongoing?</p>
-<hr/>
-<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
-<p>Yes it does and you can already see it in this video</p>
-<hr/>
-<p><strong>nkxxll (@nkxxll)</strong> · context</p>
-<p>love this &lt;3 only thing I am missing are sessions. I find myself working on at least two projects at a time all the time and I want that all in one window.</p>
-<p>are there plans to make this session view better ;) (herdr btw.):</p>
-<p><img src="https://pbs.twimg.com/media/HPhynuzXkAE_63G?format=png&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
-<hr/>
-<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
-<p>That little icon next to the tabs are sessions.</p>
-<p><a href="https://x.com/mitchellh/status/2087545750242963815">View on X</a></p>]]></content:encoded>
-	  <enclosure url="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" type="video/mp4" length="0" />
-	  <media:content url="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" type="video/mp4" medium="image" />
-	  <media:content url="https://pbs.twimg.com/media/HPhynuzXkAE_63G?format=png&amp;amp;name=large" type="application/octet-stream" medium="image" />
 	</item>
     <item>
 	  <title>Mitchell Hashimoto reply: This is just one small tiny UI demo.</title>
@@ -1098,6 +1141,38 @@
 <p><a href="https://x.com/mitchellh/status/2085034829318656113">View on X</a></p>]]></content:encoded>
 	  <enclosure url="https://pbs.twimg.com/media/HO-HlZmacAA3oBB?format=jpg&amp;amp;name=large" type="application/octet-stream" length="0" />
 	  <media:content url="https://pbs.twimg.com/media/HO-HlZmacAA3oBB?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	</item>
+    <item>
+	  <title>Mitchell Hashimoto: Here&apos;s my general daily schedule, for people who asked:</title>
+	  <link>https://x.com/mitchellh/status/1971215795331191176</link>
+	  <guid isPermaLink="false">be0aa22f42a8a216b84881502befbb1b5083f17e</guid>
+	  <pubDate>Thu, 25 Sep 2025 14:10:43 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>Mitchell Hashimoto (@mitchellh) · post Up by 530 AM. Mostly empty streets and coffee at 6 AM. Short walk on the beach until 630. Laptop open and committing by 645 AM. I love my mornings. Mitchell Hashimoto (@mitchellh) · reply Here&apos;s my general daily schedule, for people who a...</description>
+	  <content:encoded><![CDATA[<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · post</p>
+<p>Up by 530 AM. Mostly empty streets and coffee at 6 AM. Short walk on the beach until 630. Laptop open and committing by 645 AM. I love my mornings.</p>
+<p><img src="https://pbs.twimg.com/media/G1siq_AboAAnoYl?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Here's my general daily schedule, for people who asked:</p>
+<br/>
+<p>- 530 awake</p>
+<p>- 600 coffee outside w/ wife (or walk), talk</p>
+<p>- 630 laptop opening, emails</p>
+<p>- 645 OSS triage, try to get a merge in</p>
+<p>- 730 wake up daughter, eat breakfast</p>
+<p>- 800 work begins</p>
+<p>- 1330 break time (gym, games, resting, whatever)</p>
+<p>- 1530 wake up daughter (nap)</p>
+<p>- 1530 - 1930 family time</p>
+<p>- 1930 daughter goes to bed</p>
+<p>- 1930 - 2130 family time w/ wife</p>
+<p>- 2130 sleep</p>
+<br/>
+<p>Obviously things shift all the time, but this is the rough outline of what my everyday looks like.</p>
+<p><a href="https://x.com/mitchellh/status/1971215795331191176">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/media/G1siq_AboAAnoYl?format=jpg&amp;amp;name=large" type="application/octet-stream" length="0" />
+	  <media:content url="https://pbs.twimg.com/media/G1siq_AboAAnoYl?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
 	</item>
   </channel>
 </rss>
