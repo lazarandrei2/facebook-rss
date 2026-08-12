@@ -7,7 +7,7 @@
 	<link>https://lazarandrei2.github.io/facebook-rss/twitter.xml</link>
 	<description>Latest posts and author-involved reply threads from watched X profiles</description>
 	<pubDate>Wed, 12 Aug 2026 19:25:27 GMT</pubDate>
-	<lastBuildDate>Wed, 12 Aug 2026 20:01:24 GMT</lastBuildDate>
+	<lastBuildDate>Wed, 12 Aug 2026 23:08:17 GMT</lastBuildDate>
 		    <item>
 	  <title>Mitchell Hashimoto reply: That little icon next to the tabs are sessions.</title>
 	  <link>https://x.com/mitchellh/status/2087545750242963815</link>
@@ -199,6 +199,33 @@
 <p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
 <p>Indeed, there will be many such cases. It’s like saying cars existed over 100 years ago and trying to compare that to a modern Tesla.</p>
 <p><a href="https://x.com/mitchellh/status/2087547842026217583">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" type="video/mp4" length="0" />
+	  <media:content url="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" type="video/mp4" medium="image" />
+	</item>
+    <item>
+	  <title>Mitchell Hashimoto reply: No, but the clients will be unapologetically designed for their platforms. Not every OS will supp...</title>
+	  <link>https://x.com/mitchellh/status/2087661814113034293</link>
+	  <guid isPermaLink="false">a738d95cfd6f853add16d003df38f334ac654936</guid>
+	  <pubDate>Wed, 12 Aug 2026 14:32:44 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>Threetrees (@melodyogonna) · original Nice. This actually exists in Tmux though not as intuitive as this. Mitchell Hashimoto (@mitchellh) · reply Indeed, there will be many such cases. It’s like saying cars existed over 100 years ago and trying to compare that to a modern Tesl...</description>
+	  <content:encoded><![CDATA[<p><strong>Threetrees (@melodyogonna)</strong> · original</p>
+<p>Nice.</p>
+<p>This actually exists in Tmux though not as intuitive as this.</p>
+<p><img src="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Indeed, there will be many such cases. It’s like saying cars existed over 100 years ago and trying to compare that to a modern Tesla.</p>
+<hr/>
+<p><strong>John Zetterman (@jzetterman)</strong> · context</p>
+<p>@mitchellh</p>
+<p>I'm guessing this will be macOS only for a while, given what looks like very tight integration with Apple's tech. Any plans to support Linux at any point though?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>No, but the clients will be unapologetically designed for their platforms. Not every OS will support the same UI features. We want people to think it’s not cross platform cause it’s so damn good on each.</p>
+<br/>
+<p>Beta will be web plus Apple (macOS iOS) only for GUI. Server runs on Linux</p>
+<p><a href="https://x.com/mitchellh/status/2087661814113034293">View on X</a></p>]]></content:encoded>
 	  <enclosure url="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" type="video/mp4" length="0" />
 	  <media:content url="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" type="video/mp4" medium="image" />
 	</item>
