@@ -6,9 +6,103 @@
 	<title>Twitter</title>
 	<link>https://lazarandrei2.github.io/facebook-rss/twitter.xml</link>
 	<description>Latest posts and author-involved reply threads from watched X profiles</description>
-	<pubDate>Wed, 12 Aug 2026 19:25:27 GMT</pubDate>
-	<lastBuildDate>Wed, 12 Aug 2026 23:08:17 GMT</lastBuildDate>
+	<pubDate>Thu, 13 Aug 2026 01:22:25 GMT</pubDate>
+	<lastBuildDate>Thu, 13 Aug 2026 02:16:42 GMT</lastBuildDate>
 		    <item>
+	  <title>Mitchell Hashimoto reply: do you do windows too</title>
+	  <link>https://x.com/mitchellh/status/2087711338487562603</link>
+	  <guid isPermaLink="false">e462d8f2eee822c53a648639a28236bd73c5af99</guid>
+	  <pubDate>Thu, 13 Aug 2026 01:22:25 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>Luke Parker (@lukeparkerdev) · original @jayair I will be really nice to you and not even ask for a raise, I&apos;ll just take this as a new work laptop so I can develop Windows Desktop features really fast? deal.. ? Mitchell Hashimoto (@mitchellh) · reply Direct video dax (@thdxr)...</description>
+	  <content:encoded><![CDATA[<p><strong>Luke Parker (@lukeparkerdev)</strong> · original</p>
+<p>@jayair</p>
+<p>I will be really nice to you and not even ask for a raise, I'll just take this as a new work laptop so I can develop Windows Desktop features really fast?</p>
+<br/>
+<p>deal.. ?</p>
+<p><img src="https://pbs.twimg.com/media/HPkJA4SbEAAhJI3?format=jpg&amp;name=large" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<br/>
+<p><video controls playsinline preload="metadata" poster="https://pbs.twimg.com/tweet_video_thumb/HPkJtSxawAEDwow.jpg" style="max-width:100%;height:auto"><source src="https://video.twimg.com/tweet_video/HPkJtSxawAEDwow.mp4" type="video/mp4" /></video></p>
+<p><a href="https://video.twimg.com/tweet_video/HPkJtSxawAEDwow.mp4">Direct video</a></p>
+<hr/>
+<p><strong>dax (@thdxr)</strong> · context</p>
+<p>god damn it STOP plz</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>do you do windows too</p>
+<p><a href="https://x.com/mitchellh/status/2087711338487562603">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://video.twimg.com/tweet_video/HPkJtSxawAEDwow.mp4" type="video/mp4" length="0" />
+	  <media:content url="https://video.twimg.com/tweet_video/HPkJtSxawAEDwow.mp4" type="video/mp4" medium="video" />
+	  <media:thumbnail url="https://pbs.twimg.com/tweet_video_thumb/HPkJtSxawAEDwow.jpg" />
+	  <media:content url="https://pbs.twimg.com/media/HPkJA4SbEAAhJI3?format=jpg&amp;amp;name=large" type="application/octet-stream" medium="image" />
+	  <media:content url="https://pbs.twimg.com/tweet_video_thumb/HPkJtSxawAEDwow.jpg" type="video/mp4" medium="image" />
+	</item>
+    <item>
+	  <title>Mitchell Hashimoto reply: Found it, we just reached out! Sorry, got lost in the pile :( :( :(</title>
+	  <link>https://x.com/mitchellh/status/2087577263584022649</link>
+	  <guid isPermaLink="false">cf926ad8d1f6b746698027598bdd66bf084e9e09</guid>
+	  <pubDate>Thu, 13 Aug 2026 01:09:48 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>Mitchell Hashimoto (@mitchellh) · post We&apos;re looking to hire Windows developers capable of producing UI at this quality (but, idiomatic to the Windows ecosystem, not cloning Apple). If you are one or know someone, please have them apply via `ssh http:// superlogical.jobs`. We&apos;...</description>
+	  <content:encoded><![CDATA[<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · post</p>
+<p>We're looking to hire Windows developers capable of producing UI at this quality (but, idiomatic to the Windows ecosystem, not cloning Apple). If you are one or know someone, please have them apply via `ssh</p>
+<p>http://</p>
+<p>superlogical.jobs`. We've been struggling to find this person.</p>
+<br/>
+<p>There's just a lot of Windows applications out there (like, almost all of them) that just aren't good. We're looking for someone who wants to create a Windows applications that sparks joy, excites people, and feels good. We want frame perfect animation. We want obsessive consideration over user flows, click counts, keyboard press counts, etc.</p>
+<br/>
+<p>We're a team that has that kind of obsession, but lacks the Windows experience. If you know a Windows dev who has this quality obsession and wants to work with a group that shares those ideals, I want to talk to them.</p>
+<p><img src="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>vogel (@ryanvogel)</strong> · context</p>
+<p>@LukeParkerDev</p>
+<br/>
+<p>@brendonovich</p>
+<hr/>
+<p><strong>Jay (@jayair)</strong> · context</p>
+<p>bro</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>I accept their applications and shall formally begin the interview process on X. Thank you</p>
+<p>@jayair</p>
+<p>.</p>
+<hr/>
+<p><strong>Luke Parker (@lukeparkerdev)</strong> · context</p>
+<p>anomaly is beefing with literally EVERYONE this week</p>
+<hr/>
+<p><strong>Jay (@jayair)</strong> · context</p>
+<p>Vogel you are fired if Luke and Brendan leave</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Time to ask for a raise Luke and Brendan. You have leverage now on a public timeline.</p>
+<hr/>
+<p><strong>vogel (@ryanvogel)</strong> · context</p>
+<p>can i ask for a raise?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Do you do windows</p>
+<hr/>
+<p><strong>vogel (@ryanvogel)</strong> · context</p>
+<p>my apartment has them, and my car</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>so you don’t do windows tho</p>
+<hr/>
+<p><strong>Gordon Cassie (@gordon_cassie)</strong> · context</p>
+<p>I sent someone great  your way but he hasn't heard anything.</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>I thought we reached out, let me double check. Sorry about that.</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Found it, we just reached out! Sorry, got lost in the pile :( :( :(</p>
+<p><a href="https://x.com/mitchellh/status/2087577263584022649">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" type="video/mp4" length="0" />
+	  <media:content url="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" type="video/mp4" medium="image" />
+	</item>
+    <item>
 	  <title>Mitchell Hashimoto reply: That little icon next to the tabs are sessions.</title>
 	  <link>https://x.com/mitchellh/status/2087545750242963815</link>
 	  <guid isPermaLink="false">edd9dbe482e7c8edeb99ce2aae5dd024e3085e55</guid>
@@ -82,6 +176,64 @@
 	  <media:content url="https://pbs.twimg.com/media/HPhynuzXkAE_63G?format=png&amp;amp;name=large" type="application/octet-stream" medium="image" />
 	</item>
     <item>
+	  <title>Mitchell Hashimoto reply: Yes, that&apos;s fixed because this is a fully custom tab bar.</title>
+	  <link>https://x.com/mitchellh/status/2087574937016095200</link>
+	  <guid isPermaLink="false">5330c8b683ca43b067958f38e5896a9f36b5d140</guid>
+	  <pubDate>Wed, 12 Aug 2026 19:25:27 GMT</pubDate>
+	  <author>Mitchell Hashimoto</author>
+	  <description>Mitchell Hashimoto (@mitchellh) · post Sharing some more UI previews for Superlogical, this time the &amp;quot;tab peek.&amp;quot; If you three-finger swipe down, you can &amp;quot;peek&amp;quot; at the other session tabs. These are live-updating, metal-rendered previews including splits. If ...</description>
+	  <content:encoded><![CDATA[<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · post</p>
+<p>Sharing some more UI previews for Superlogical, this time the &quot;tab peek.&quot; If you three-finger swipe down, you can &quot;peek&quot; at the other session tabs. These are live-updating, metal-rendered previews including splits. If you keep dragging, you enter a &quot;mission control&quot; style mode.</p>
+<br/>
+<p>This is one of those UI patterns that once you get used to, you mindlessly find yourself doing it ALL THE TIME. It's a great way to quickly take a look at everything thats going on. You aren't reading the mini text of course, but the shape of it tells you a lot about where things are.</p>
+<br/>
+<p>The peek pushes the terminal down off screen, it doesn't resize it, so it doesn't force any weird reflow or anything either.</p>
+<br/>
+<p>There's a lot more to talk about, especially about how this interacts with how we expose what needs attention so you can easily find the terminals/sessions/etc. that require your attention.</p>
+<br/>
+<p>Of course, you'll be able to drive this with the keyboard too. :)</p>
+<br/>
+<p>As always, a disclaimer: this is all early work subject to change, just trying to share some of what we're building in public. A lot of the UI experiential design is</p>
+<p>@almonk</p>
+<p>so follow him for more updates too!</p>
+<p><img src="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" alt="" style="max-width:100%;height:auto" /></p>
+<hr/>
+<p><strong>NatSock (@mynatsockacct)</strong> · context</p>
+<p>waaahhh i can't remember what my sessions do without 4 minutes of animated cutscenes applied to my tabs</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>We respect the macOS settings to limit animation (we disable it).</p>
+<hr/>
+<p><strong>paperbenni (@paperbenni)</strong> · context</p>
+<p>I thought this was supposed to be a multiplexer? That looks like fancy ghostty. Can I close the window and the sessions keep active?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>The best multiplexer in the world is going to be the one that makes you forget it exists. Everything you see here is a remote terminal. The little icon to the left of the tabs is a list of sessions. When you restart it restores. You can join from another comptuer. You can even join from your phone.</p>
+<hr/>
+<p><strong>Brendon Ghaderi (@br3ndong)</strong> · context</p>
+<p>Is this available for public use? Would love to help beta test</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Not yet</p>
+<hr/>
+<p><strong>vogel (@ryanvogel)</strong> · context</p>
+<p>is it only gonna be Mac</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>No, but the clients will be unapologetically designed for their platforms. Not every OS will support the same UI features. We want people to think it’s not cross platform cause it’s so damn good on each.</p>
+<br/>
+<p>Beta will be web plus Apple (macOS iOS) only for GUI. Server runs on Linux too but native GUI there to start. Windows we’re hiring for.</p>
+<hr/>
+<p><strong>roman (@nulladdict)</strong> · context</p>
+<p>any chance this will get rid of the native macos tabs that conflict with macos tiling managers?</p>
+<hr/>
+<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
+<p>Yes, that's fixed because this is a fully custom tab bar.</p>
+<p><a href="https://x.com/mitchellh/status/2087574937016095200">View on X</a></p>]]></content:encoded>
+	  <enclosure url="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" type="video/mp4" length="0" />
+	  <media:content url="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" type="video/mp4" medium="image" />
+	</item>
+    <item>
 	  <title>Mitchell Hashimoto reply: There are other ways to trigger it haha.</title>
 	  <link>https://x.com/mitchellh/status/2087621396839162349</link>
 	  <guid isPermaLink="false">6dd3b09ab52a8a7554705813b0bce87a4d5ecd1b</guid>
@@ -137,35 +289,6 @@
 <p><a href="https://x.com/mitchellh/status/2087582221301637561">View on X</a></p>]]></content:encoded>
 	  <enclosure url="https://pbs.twimg.com/amplify_video_thumb/2087542104700452865/img/Tr_DJVJPA83D3bPy.jpg" type="video/mp4" length="0" />
 	  <media:content url="https://pbs.twimg.com/amplify_video_thumb/2087542104700452865/img/Tr_DJVJPA83D3bPy.jpg" type="video/mp4" medium="image" />
-	</item>
-    <item>
-	  <title>Mitchell Hashimoto reply: Found it, we just reached out! Sorry, got lost in the pile :( :( :(</title>
-	  <link>https://x.com/mitchellh/status/2087577263584022649</link>
-	  <guid isPermaLink="false">cf926ad8d1f6b746698027598bdd66bf084e9e09</guid>
-	  <pubDate>Wed, 12 Aug 2026 16:29:39 GMT</pubDate>
-	  <author>Mitchell Hashimoto</author>
-	  <description>Mitchell Hashimoto (@mitchellh) · post We&apos;re looking to hire Windows developers capable of producing UI at this quality (but, idiomatic to the Windows ecosystem, not cloning Apple). If you are one or know someone, please have them apply via `ssh http:// superlogical.jobs`. We&apos;...</description>
-	  <content:encoded><![CDATA[<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · post</p>
-<p>We're looking to hire Windows developers capable of producing UI at this quality (but, idiomatic to the Windows ecosystem, not cloning Apple). If you are one or know someone, please have them apply via `ssh</p>
-<p>http://</p>
-<p>superlogical.jobs`. We've been struggling to find this person.</p>
-<br/>
-<p>There's just a lot of Windows applications out there (like, almost all of them) that just aren't good. We're looking for someone who wants to create a Windows applications that sparks joy, excites people, and feels good. We want frame perfect animation. We want obsessive consideration over user flows, click counts, keyboard press counts, etc.</p>
-<br/>
-<p>We're a team that has that kind of obsession, but lacks the Windows experience. If you know a Windows dev who has this quality obsession and wants to work with a group that shares those ideals, I want to talk to them.</p>
-<p><img src="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" alt="" style="max-width:100%;height:auto" /></p>
-<hr/>
-<p><strong>Gordon Cassie (@gordon_cassie)</strong> · context</p>
-<p>I sent someone great  your way but he hasn't heard anything.</p>
-<hr/>
-<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
-<p>I thought we reached out, let me double check. Sorry about that.</p>
-<hr/>
-<p><strong>Mitchell Hashimoto (@mitchellh)</strong> · reply</p>
-<p>Found it, we just reached out! Sorry, got lost in the pile :( :( :(</p>
-<p><a href="https://x.com/mitchellh/status/2087577263584022649">View on X</a></p>]]></content:encoded>
-	  <enclosure url="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" type="video/mp4" length="0" />
-	  <media:content url="https://pbs.twimg.com/amplify_video_thumb/2087536066685526016/img/X8Yx0yHS8cubQNva.jpg" type="video/mp4" medium="image" />
 	</item>
     <item>
 	  <title>Mitchell Hashimoto reply: This is just one small tiny UI demo.</title>
